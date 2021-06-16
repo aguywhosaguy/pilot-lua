@@ -27,5 +27,10 @@ ___
 
 ___
 
+## `void Beep(float pitch)`
+> Beeps with the given `pitch`. *\*\*Beep!\*\**
+
+___
+
 ## `array GetPartsFromPort(int port)` **POTENTIALLY UNFINISHED**
 > Gets an array of parts from the given port number.
