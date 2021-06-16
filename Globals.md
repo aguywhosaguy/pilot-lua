@@ -27,5 +27,5 @@ ___
 
 ___
 
-## `array GetPartsFromPort(int port)`
-**TODO**
+## `array GetPartsFromPort(int port)` **POTENTIALLY UNFINISHED**
+> Gets an array of parts from the given port number.
