@@ -53,7 +53,7 @@ If you would like to submit a wiki page, a specific Issue format for wiki pages 
   * [[Screen]]
     * **DOCUMENT ME** Vector2 Screen:GetDimensions()
     * **DOCUMENT ME** void Screen:ClearElements(dictionary? properties)
-    * **DOCUMENT ME** GuiElement Screen:CreateElement(string elementClass, dictionary properties)
+    * **DOCUMENT ME** ScreenObject Screen:CreateElement(string elementClass, map<[property]=value> properties)
     * [[TouchScreen]]
       * **DOCUMENT ME** Cursor? TouchScreen:GetCursor()
       * **DOCUMENT ME** array TouchScreen:GetCursors()
@@ -70,3 +70,5 @@ If you would like to submit a wiki page, a specific Issue format for wiki pages 
     * **DOCUMENT ME** void Speaker:Chat(string message)
   * [[Microcontroller]]
     * **DOCUMENT ME** void? Microcontroller:Communicate(any data)
+* [[ScreenObject]]
+  * **DOCUMENT ME** void ScreenObject:ChangeProperties(map<[property]=value> properties)
