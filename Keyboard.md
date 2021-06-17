@@ -1,8 +1,10 @@
 # Keyboard
+
 **This documentation is incomplete. Please contribute via [Issues](../issues)!** \
 Allows you to interact with a users' key presses or simulate them.
 
 ## Table of contents
+
 * [`void Keyboard:SimulateKeyPress(string? key, string Player)`](#void-keyboardsimulatekeypressstring-key-string-player)
 * [`void Keyboard:SimulateTextInput(string? input, string Player)`](#void-keyboardsimulatetextinputstring-input-string-player)
 
