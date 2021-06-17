@@ -8,7 +8,7 @@
   * [[Microcontroller Globals]]
   * [[Roblox Globals]]
 
-## Objects
+## Parts
 * [[Part]]
   * [[string Part.ClassName|Part#string-partclassname]]
   * [[void Part:Trigger()|Part#void-parttrigger]]
@@ -51,6 +51,7 @@
     * **DOCUMENT ME** void Speaker:Chat(string message)
   * [[Microcontroller]]
     * **DOCUMENT ME** void? Microcontroller:Communicate(any data)
+## Additional objects
 * [[ScreenObject]]
   * **DOCUMENT ME** void ScreenObject:ChangeProperties([\<string\>property=\<any\>value] properties)
 * [[Cursor]]
