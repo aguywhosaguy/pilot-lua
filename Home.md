@@ -33,6 +33,13 @@ If you would like to submit a wiki page, a specific Issue format for wiki pages 
   * [[void Part:Trigger()|Part#void-parttrigger]]
   * [[void Part:Configure(map<[property]=value> properties)|Part#void-partconfiguremappropertyvalue-properties]]
   * [[void Part:ConnectToEvent(string eventName, function callback)|Part#void-partconnecttoeventstring-eventname-function-callback]]
+  * [[Keyboard]]
+    * [[void Keyboard:SimulateKeyPress(string? key, string Player)|Keyboard#void-keyboardsimulatekeypressstring-key-string-player]]
+    * [[void Keyboard:SimulateTextInput(string? input, string Player)|Keyboard#void-keyboardsimulatetextinputstring-input-string-player]]
+  * [[LifeSensor]]
+    * [[map<[Player]=Vector3> LifeSensor:GetReading()|LifeSensor#mapplayervector3-lifesensorgetreading]]
+  * [[Instrument]]
+    * [[number Instrument:GetReading(int typeId=nil)|Instrument#number-instrumentgetreadingint-typeidnil]]
   * [[EnergyShield]]
     * **DOCUMENT ME** float EnergyShield:GetShieldHealth()
   * [[Disk]]
@@ -63,11 +70,3 @@ If you would like to submit a wiki page, a specific Issue format for wiki pages 
     * **DOCUMENT ME** void Speaker:Chat(string message)
   * [[Microcontroller]]
     * **DOCUMENT ME** void? Microcontroller:Communicate(any data)
-  * [[Keyboard]]
-    * [[void Keyboard:SimulateKeyPress(string? key, string Player)|Keyboard#void-keyboardsimulatekeypressstring-key-string-player]]
-    * [[void Keyboard:SimulateTextInput(string? input, string Player)|Keyboard#void-keyboardsimulatetextinputstring-input-string-player]]
-  * [[LifeSensor]]
-    * [[map<[Player]=Vector3> LifeSensor:GetReading()|LifeSensor#mapplayervector3-lifesensorgetreading]]
-  * [[Instrument]]
-    * [[number Instrument:GetReading(int typeId=nil)|Instrument#number-instrumentgetreadingint-typeidnil]]
-    
