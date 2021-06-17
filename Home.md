@@ -19,44 +19,44 @@ If you would like to submit a wiki page, a specific Issue format for wiki pages 
 * [ ] Organize documentation pages & clean up
 
 ## Globals
-* [[Microcontroller Globals|Microcontroller-Globals]]
-* [[Roblox Globals|Roblox-Globals]]
+* [[Microcontroller Globals]]
+* [[Roblox Globals]]
 
 ## Parts (TO BE DOCUMENTED)
-* EnergyShield
+* [[EnergyShield]]
   * **DOCUMENT ME** float EnergyShield:GetShieldHealth()
-* Disk
+* [[Disk]]
   * **DOCUMENT ME** void Disk:ClearDisk()
   * **DOCUMENT ME** void Disk:Write(string key, string data)
   * **DOCUMENT ME** string Disk:Read(string key)
-* Modem
+* [[Modem]]
   * **DOCUMENT ME** void Modem:PostRequest(string domain, string data) - NOTE: NOT HTTP
   * **DOCUMENT ME** string Modem:GetRequest(string domain) - NOTE: NOT HTTP
   * **DOCUMENT ME** void Modem:SendMessage(string data, int id) - Sends a message (Like `MessagingService`) and has an event on the Modem (need to find event name, I believe its OnMessage)
-* Screen
+* [[Screen]]
   * **DOCUMENT ME** Vector2 Screen:GetDimensions()
   * **DOCUMENT ME** void Screen:ClearElements(dictionary? properties)
   * **DOCUMENT ME** GuiElement Screen:CreateElement(string elementClass, dictionary properties)
-  * TouchScreen
+  * [[TouchScreen]]
     * **DOCUMENT ME** Cursor? TouchScreen:GetCursor()
     * **DOCUMENT ME** array TouchScreen:GetCursors()
-* Rail
+* [[Rail]]
   * **DOCUMENT ME** void SetPosition(int depth)
-* StarMap
+* [[StarMap]]
   * **DOCUMENT ME** array StarMap:GetBodies()
   * **DOCUMENT ME** array StarMap:GetSystems()
-* Telescope
+* [[Telescope]]
   * **DOCUMENT ME** Coordinate? GetCoordinate(int x1, int y1, int x2, int y2)
-* Speaker
+* [[Speaker]]
   * **DOCUMENT ME** void Speaker:PlaySound(int soundId)
   * **DOCUMENT ME** void Speaker:ClearSounds()
   * **DOCUMENT ME** void Speaker:Chat(string message)
-* Microcontroller
+* [[Microcontroller]]
   * **DOCUMENT ME** void? Microcontroller:Communicate(any data)
-* Keyboard
+* [[Keyboard]]
   * **DOCUMENT ME** void Keyboard:SimulateKeyPress(string? key, string Player)
   * **DOCUMENT ME** void Keyboard:SimulateTextInput(string? input, string Player)
 * [[LifeSensor]]
-  * [[LifeSensor#mapplayervector3-lifesensorgetreading]]
+  * [[map<[Player]=Vector3> LifeSensor:GetReading()|LifeSensor#mapplayervector3-lifesensorgetreading]]
 * [[Instrument]]
   * [[number Instrument:GetReading(int typeId=nil)|Instrument#number-instrumentgetreadingint-typeidnil]]
