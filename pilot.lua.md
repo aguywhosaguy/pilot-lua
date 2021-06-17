@@ -1,5 +1,3 @@
-# pilot.lua
-
 Unofficial Waste of Space Microcontroller Documentation ([[Additional Resources|Additional-Resources]])
 
 ## How to contribute to the wiki
