@@ -31,7 +31,7 @@ If you would like to submit a wiki page, a specific Issue format for wiki pages 
 * [[Part]]
   * [[string Part.ClassName|Part#string-partclassname]]
   * [[void Part:Trigger()|Part#void-parttrigger]]
-  * [[void Part:Configure([\<string\>property=\<any\>value] properties)|Part#void-partconfiguremappropertyvalue-properties]]
+  * [[void Part:Configure([\<string\>property=\<any\>value] properties)|Part#void-partconfigurestringpropertyanyvalue-properties]]
   * [[void Part:ConnectToEvent(string eventName, function callback)|Part#void-partconnecttoeventstring-eventname-function-callback]]
   * [[Keyboard]]
     * [[void Keyboard:SimulateKeyPress(string? key, string Player)|Keyboard#void-keyboardsimulatekeypressstring-key-string-player]]
