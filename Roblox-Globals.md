@@ -80,7 +80,7 @@ local success, errMessage = xpcall(myFunction, debug.traceback)
 
 ___
 
-## Non recommended functions
+## Functions to try to avoid
 
 ### **DO NOT USE** [`void delay(optional float time, function callback)`](https://developer.roblox.com/en-us/api-reference/lua-docs/Roblox-Globals#functions)
 
