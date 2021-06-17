@@ -14,7 +14,7 @@ Roblox globals and libraries accessible to microcontrollers.
   * [`string coroutine.status(thread target)`](#string-coroutinestatusthread-target)
 * [debug](#debug)
   * [`string debug.traceback(string prefix=nil, int level=1)`](#string-debugtracebackstring-prefixnil-int-level1)
-* [Functions to try to avoid](#functions-to-try-to-avoid)
+* [Functions to avoid](#functions-to-avoid)
 
 
 ## Basics
@@ -95,7 +95,7 @@ local success, errMessage = xpcall(myFunction, debug.traceback)
 
 ___
 
-## Functions to try to avoid
+## Functions to avoid
 
 ### **DO NOT USE** [`void delay(optional float time, function callback)`](https://developer.roblox.com/en-us/api-reference/lua-docs/Roblox-Globals#functions)
 
