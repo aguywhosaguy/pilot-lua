@@ -1,5 +1,3 @@
-# Roblox Globals (For microcontrollers)
-
 Roblox globals and libraries accessible to microcontrollers.
 
 ## Table of contents
