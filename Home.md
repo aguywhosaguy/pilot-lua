@@ -8,9 +8,9 @@ Make sure to link to relevant wiki pages if submitting inaccuracies, corrections
 If you would like to submit a wiki page, a specific Issue format for wiki pages will be created but in the mean time you can name your issue `(Wiki) Name of wiki page` and the body of your post can contain the body of the wiki page you are submitting with any places where missing info exists clearly marked in bold.
 
 ## TODO LIST
-* [ ] Document additional globals
 * [x] Document most significant Roblox globals
 * [x] Document known Microcontroller globals
+* [ ] Document additional globals
 * [ ] Document all Parts' microcontroller entries (In detail)
 * [ ] Add code examples for microcontroller entries
 * [ ] Document all Parts' configurables (In detail)
