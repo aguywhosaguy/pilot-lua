@@ -1,1 +1,1 @@
-[[Home]] | [[Additional resources]]
+[[Home]] | [[Globals]] | [[Additional resources]]
