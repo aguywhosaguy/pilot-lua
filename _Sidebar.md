@@ -10,53 +10,53 @@
 
 ## Parts
 * [[Part]]
-  * [[string Part.ClassName|Part#string-partclassname]]
-  * [[void Part:Trigger()|Part#void-parttrigger]]
-  * [[void Part:Configure([\<string\>property=\<any\>value] properties)|Part#void-partconfigurestringpropertyanyvalue-properties]]
-  * [[void Part:ConnectToEvent(string eventName, function callback)|Part#void-partconnecttoeventstring-eventname-function-callback]]
+  * [[Part.ClassName|Part#string-partclassname]]
+  * [[Part:Trigger()|Part#void-parttrigger]]
+  * [[Part:Configure()|Part#void-partconfigurestringpropertyanyvalue-properties]]
+  * [[Part:ConnectToEvent()|Part#void-partconnecttoeventstring-eventname-function-callback]]
   * [[Keyboard]]
-    * [[void Keyboard:SimulateKeyPress(string? key, string Player)|Keyboard#void-keyboardsimulatekeypressstring-key-string-player]]
-    * [[void Keyboard:SimulateTextInput(string? input, string Player)|Keyboard#void-keyboardsimulatetextinputstring-input-string-player]]
+    * [[Keyboard:SimulateKeyPress()|Keyboard#void-keyboardsimulatekeypressstring-key-string-player]]
+    * [[Keyboard:SimulateTextInput()|Keyboard#void-keyboardsimulatetextinputstring-input-string-player]]
   * [[LifeSensor]]
-    * [[ [\<string\>playerName=\<Vector3\>]position LifeSensor:GetReading()|LifeSensor#stringplayernamevector3position-lifesensorgetreading]]
+    * [[LifeSensor:GetReading()|LifeSensor#stringplayernamevector3position-lifesensorgetreading]]
   * [[Instrument]]
-    * [[number Instrument:GetReading(int typeId=nil)|Instrument#number-instrumentgetreadingint-typeidnil]]
+    * [[Instrument:GetReading()|Instrument#number-instrumentgetreadingint-typeidnil]]
   * [[EnergyShield]]
-    * number EnergyShield:GetShieldHealth()
+    * EnergyShield:GetShieldHealth()
   * [[Disk]]
-    * void Disk:ClearDisk()
-    * void Disk:Write(string key, string data)
-    * string Disk:Read(string key)
+    * Disk:ClearDisk()
+    * Disk:Write()
+    * Disk:Read()
   * [[Modem]]
-    * void Modem:PostRequest(string domain, string data) - NOTE: NOT HTTP
-    * string Modem:GetRequest(string domain) - NOTE: NOT HTTP
-    * void Modem:SendMessage(string data, int id) - Sends a message (Like `MessagingService`) and has an event on the Modem (need to find event name, I believe its OnMessage)
+    * Modem:PostRequest()
+    * Modem:GetRequest()
+    * Modem:SendMessage()
   * [[Screen]]
     * [[TouchScreen]]
-      * Cursor TouchScreen:GetCursor()
-      * Cursor TouchScreen:GetCursors()
-    * Vector2 Screen:GetDimensions()
-    * void Screen:ClearElements(string className, [\<string\>property=\<any\>value] properties)
-    * ScreenObject Screen:CreateElement(string elementClass, [\<string\>property=\<any\>value] properties)
+      * TouchScreen:GetCursor()
+      * TouchScreen:GetCursors()
+    * Screen:GetDimensions()
+    * Screen:ClearElements()
+    * Screen:CreateElement()
   * [[Rail]]
-    * void SetPosition(int depth)
+    * Rail:SetPosition()
   * [[StarMap]]
-    * [Body? body] StarMap:GetBodies()
-    * [System? system] StarMap:GetSystems()
+    * StarMap:GetBodies()
+    * StarMap:GetSystems()
   * [[Telescope]]
-    * Coordinate? GetCoordinate(int x1, int y1, int x2, int y2)
+    * Telescope:GetCoordinate()
   * [[Speaker]]
-    * void Speaker:PlaySound(int soundId)
-    * void Speaker:ClearSounds()
-    * void Speaker:Chat(string message)
+    * Speaker:PlaySound()
+    * Speaker:ClearSounds()
+    * Speaker:Chat()
   * [[Microcontroller]]
-    * void? Microcontroller:Communicate(any data)
+    * Microcontroller:Communicate()
 ## Additional objects
 * [[ScreenObject]]
-  * void ScreenObject:ChangeProperties([\<string\>property=\<any\>value] properties)
+  * ScreenObject:ChangeProperties()
 * [[Cursor]]
-  * int Cursor.X
-  * int Cursor.Y
-  * string Cursor.Player
-  * boolean Cursor.Pressed
+  * Cursor.X
+  * Cursor.Y
+  * Cursor.Player
+  * Cursor.Pressed
 * [[Coordinate]]
