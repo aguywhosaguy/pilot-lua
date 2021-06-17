@@ -1,5 +1,3 @@
-# Part
-
 **This documentation is incomplete. Please contribute via [Issues](../issues)!** \
 The base type for all objects.
 
