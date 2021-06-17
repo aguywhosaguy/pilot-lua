@@ -1,6 +1,23 @@
 # pilot.lua
 Unofficial Waste of Space Microcontroller Documentation ([[Additional Resources|Additional-Resources]])
 
+## How to contribute to the wiki
+If you would like to report inaccurate information, submit a wiki page or code example, etc, feel free to do so via [Issues](../../issues).
+Make sure to link to relevant wiki pages if submitting inaccuracies, corrections, or suggested additions.
+
+If you would like to submit a wiki page, a specific Issue format for wiki pages will be created but in the mean time you can name your issue `(Wiki) Name of wiki page` and the body of your post can contain the body of the wiki page you are submitting with any places where missing info exists clearly marked in bold.
+
+## TODO LIST
+[ ] Document additional globals
+[X] Document most significant Roblox globals
+[X] Document known Microcontroller globals
+[ ] Document all Parts' microcontroller entries (In detail)
+[ ] Add code examples for microcontroller entries
+[ ] Document all Parts' configurables (In detail)
+[ ] Document certain game mechanics related to microcontrollers such as Ethernet Cable and Ports
+[ ] Document 
+[ ] Organize documentation pages & clean up
+
 ## Globals
 * [[Microcontroller Globals|Microcontroller-Globals]]
 * [[Roblox Globals|Roblox-Globals]]
