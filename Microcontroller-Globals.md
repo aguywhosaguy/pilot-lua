@@ -1,5 +1,3 @@
-# Microcontroller Globals
-
 Microcontroller-specific globals. These are the bridge from the code to the game.
 
 ## Table of contents
