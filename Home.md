@@ -24,7 +24,7 @@ If you would like to submit a wiki page, a specific Issue format for wiki pages 
 
 ## Parts (TO BE DOCUMENTED)
 * EnergyShield
-  * **DOCUMENT ME** EnergyShield:GetShieldHealth()
+  * **DOCUMENT ME** float EnergyShield:GetShieldHealth()
 * Disk
   * **DOCUMENT ME** void Disk:ClearDisk()
   * **DOCUMENT ME** void Disk:Write(string key, string data)
