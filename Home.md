@@ -1,13 +1,16 @@
 # pilot.lua
+
 Unofficial Waste of Space Microcontroller Documentation ([[Additional Resources|Additional-Resources]])
 
 ## How to contribute to the wiki
+
 If you would like to report inaccurate information, submit a wiki page or code example, etc, feel free to do so via [Issues](../issues).
 Make sure to link to relevant wiki pages if submitting inaccuracies, corrections, or suggested additions.
 
 If you would like to submit a wiki page, a specific Issue format for wiki pages will be created but in the mean time you can name your issue `(Wiki) Name of wiki page` and the body of your post can contain the body of the wiki page you are submitting with any places where missing info exists clearly marked in bold.
 
 ## TODO LIST
+
 * [x] Document most significant Roblox globals
 * [x] Document known Microcontroller globals
 * [ ] Document additional globals
@@ -19,44 +22,52 @@ If you would like to submit a wiki page, a specific Issue format for wiki pages 
 * [ ] Organize documentation pages & clean up
 
 ## Globals
+
 * [[Microcontroller Globals]]
 * [[Roblox Globals]]
 
 ## Parts (TO BE DOCUMENTED)
-* [[EnergyShield]]
-  * **DOCUMENT ME** float EnergyShield:GetShieldHealth()
-* [[Disk]]
-  * **DOCUMENT ME** void Disk:ClearDisk()
-  * **DOCUMENT ME** void Disk:Write(string key, string data)
-  * **DOCUMENT ME** string Disk:Read(string key)
-* [[Modem]]
-  * **DOCUMENT ME** void Modem:PostRequest(string domain, string data) - NOTE: NOT HTTP
-  * **DOCUMENT ME** string Modem:GetRequest(string domain) - NOTE: NOT HTTP
-  * **DOCUMENT ME** void Modem:SendMessage(string data, int id) - Sends a message (Like `MessagingService`) and has an event on the Modem (need to find event name, I believe its OnMessage)
-* [[Screen]]
-  * **DOCUMENT ME** Vector2 Screen:GetDimensions()
-  * **DOCUMENT ME** void Screen:ClearElements(dictionary? properties)
-  * **DOCUMENT ME** GuiElement Screen:CreateElement(string elementClass, dictionary properties)
-  * [[TouchScreen]]
-    * **DOCUMENT ME** Cursor? TouchScreen:GetCursor()
-    * **DOCUMENT ME** array TouchScreen:GetCursors()
-* [[Rail]]
-  * **DOCUMENT ME** void SetPosition(int depth)
-* [[StarMap]]
-  * **DOCUMENT ME** array StarMap:GetBodies()
-  * **DOCUMENT ME** array StarMap:GetSystems()
-* [[Telescope]]
-  * **DOCUMENT ME** Coordinate? GetCoordinate(int x1, int y1, int x2, int y2)
-* [[Speaker]]
-  * **DOCUMENT ME** void Speaker:PlaySound(int soundId)
-  * **DOCUMENT ME** void Speaker:ClearSounds()
-  * **DOCUMENT ME** void Speaker:Chat(string message)
-* [[Microcontroller]]
-  * **DOCUMENT ME** void? Microcontroller:Communicate(any data)
-* [[Keyboard]]
-  * **DOCUMENT ME** void Keyboard:SimulateKeyPress(string? key, string Player)
-  * **DOCUMENT ME** void Keyboard:SimulateTextInput(string? input, string Player)
-* [[LifeSensor]]
-  * [[map<[Player]=Vector3> LifeSensor:GetReading()|LifeSensor#mapplayervector3-lifesensorgetreading]]
-* [[Instrument]]
-  * [[number Instrument:GetReading(int typeId=nil)|Instrument#number-instrumentgetreadingint-typeidnil]]
+
+* [[Part]]
+  * **DOCUMENT ME** string Part.ClassName
+  * **DOCUMENT ME** void Part:Trigger()
+  * **DOCUMENT ME** void Part:Configure(map<[property]=value> properties)
+  * **DOCUMENT ME** void Part:ConnectToEvent(string eventName, function callback)
+  * [[EnergyShield]]
+    * **DOCUMENT ME** float EnergyShield:GetShieldHealth()
+  * [[Disk]]
+    * **DOCUMENT ME** void Disk:ClearDisk()
+    * **DOCUMENT ME** void Disk:Write(string key, string data)
+    * **DOCUMENT ME** string Disk:Read(string key)
+  * [[Modem]]
+    * **DOCUMENT ME** void Modem:PostRequest(string domain, string data) - NOTE: NOT HTTP
+    * **DOCUMENT ME** string Modem:GetRequest(string domain) - NOTE: NOT HTTP
+    * **DOCUMENT ME** void Modem:SendMessage(string data, int id) - Sends a message (Like `MessagingService`) and has an event on the Modem (need to find event name, I believe its OnMessage)
+  * [[Screen]]
+    * **DOCUMENT ME** Vector2 Screen:GetDimensions()
+    * **DOCUMENT ME** void Screen:ClearElements(dictionary? properties)
+    * **DOCUMENT ME** GuiElement Screen:CreateElement(string elementClass, dictionary properties)
+    * [[TouchScreen]]
+      * **DOCUMENT ME** Cursor? TouchScreen:GetCursor()
+      * **DOCUMENT ME** array TouchScreen:GetCursors()
+  * [[Rail]]
+    * **DOCUMENT ME** void SetPosition(int depth)
+  * [[StarMap]]
+    * **DOCUMENT ME** array StarMap:GetBodies()
+    * **DOCUMENT ME** array StarMap:GetSystems()
+  * [[Telescope]]
+    * **DOCUMENT ME** Coordinate? GetCoordinate(int x1, int y1, int x2, int y2)
+  * [[Speaker]]
+    * **DOCUMENT ME** void Speaker:PlaySound(int soundId)
+    * **DOCUMENT ME** void Speaker:ClearSounds()
+    * **DOCUMENT ME** void Speaker:Chat(string message)
+  * [[Microcontroller]]
+    * **DOCUMENT ME** void? Microcontroller:Communicate(any data)
+  * [[Keyboard]]
+    * [[void Keyboard:SimulateKeyPress(string? key, string Player)|Keyboard#void-keyboardsimulatekeypressstring-key-string-player]]
+    * [[void Keyboard:SimulateTextInput(string? input, string Player)|Keyboard#void-keyboardsimulatetextinputstring-input-string-player]]
+  * [[LifeSensor]]
+    * [[map<[Player]=Vector3> LifeSensor:GetReading()|LifeSensor#mapplayervector3-lifesensorgetreading]]
+  * [[Instrument]]
+    * [[number Instrument:GetReading(int typeId=nil)|Instrument#number-instrumentgetreadingint-typeidnil]]
+    
