@@ -22,41 +22,41 @@
   * [[Instrument]]
     * [[Instrument:GetReading()|Instrument#number-instrumentgetreadingint-typeidnil]]
   * [[EnergyShield]]
-    * EnergyShield:GetShieldHealth()
+    * [[EnergyShield:GetShieldHealth()]]
   * [[Disk]]
-    * Disk:ClearDisk()
-    * Disk:Write()
-    * Disk:Read()
+    * [[Disk:ClearDisk()]]
+    * [[Disk:Write()]]
+    * [[Disk:Read()]]
   * [[Modem]]
-    * Modem:PostRequest()
-    * Modem:GetRequest()
-    * Modem:SendMessage()
+    * [[Modem:PostRequest()]]
+    * [[Modem:GetRequest()]]
+    * [[Modem:SendMessage()]]
   * [[Screen]]
     * [[TouchScreen]]
-      * TouchScreen:GetCursor()
-      * TouchScreen:GetCursors()
-    * Screen:GetDimensions()
-    * Screen:ClearElements()
-    * Screen:CreateElement()
+      * [[TouchScreen:GetCursor()]]
+      * [[TouchScreen:GetCursors()]]
+    * [[Screen:GetDimensions()]]
+    * [[Screen:ClearElements()]]
+    * [[Screen:CreateElement()]]
   * [[Rail]]
-    * Rail:SetPosition()
+    * [[Rail:SetPosition()]]
   * [[StarMap]]
-    * StarMap:GetBodies()
-    * StarMap:GetSystems()
+    * [[StarMap:GetBodies()]]
+    * [[StarMap:GetSystems()]]
   * [[Telescope]]
-    * Telescope:GetCoordinate()
+    * [[Telescope:GetCoordinate()]]
   * [[Speaker]]
-    * Speaker:PlaySound()
-    * Speaker:ClearSounds()
-    * Speaker:Chat()
+    * [[Speaker:PlaySound()]]
+    * [[Speaker:ClearSounds()]]
+    * [[Speaker:Chat()]]
   * [[Microcontroller]]
-    * Microcontroller:Communicate()
+    * [[Microcontroller:Communicate()]]
 ## Additional objects
 * [[ScreenObject]]
-  * ScreenObject:ChangeProperties()
+  * [[ScreenObject:ChangeProperties()]]
 * [[Cursor]]
-  * Cursor.X
-  * Cursor.Y
-  * Cursor.Player
-  * Cursor.Pressed
+  * [[Cursor.X]]
+  * [[Cursor.Y]]
+  * [[Cursor.Player]]
+  * [[Cursor.Pressed]]
 * [[Coordinate]]
