@@ -29,10 +29,10 @@ If you would like to submit a wiki page, a specific Issue format for wiki pages 
 ## Parts (TO BE DOCUMENTED)
 
 * [[Part]]
-  * **DOCUMENT ME** string Part.ClassName
-  * **DOCUMENT ME** void Part:Trigger()
-  * **DOCUMENT ME** void Part:Configure(map<[property]=value> properties)
-  * **DOCUMENT ME** void Part:ConnectToEvent(string eventName, function callback)
+  * [[string Part.ClassName|Part#string-partclassname]]
+  * [[void Part:Trigger()|Part#void-parttrigger]]
+  * [[void Part:Configure(map<[property]=value> properties)|Part#void-partconfiguremappropertyvalue-properties]]
+  * [[void Part:ConnectToEvent(string eventName, function callback)|Part#void-partconnecttoeventstring-eventname-function-callback]]
   * [[EnergyShield]]
     * **DOCUMENT ME** float EnergyShield:GetShieldHealth()
   * [[Disk]]
