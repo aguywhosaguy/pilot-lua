@@ -1,4 +1,4 @@
-# Roblox Globals
+# Roblox Globals (For microcontrollers)
 
 Only Roblox globals and libraries confirmed to be listed are shown on this page. (Some may be missing if this documentation is not consistently updated. Feel free to message me or create an `Issue` if updates are needed, preferably if you have information about the changes/additions)
 
