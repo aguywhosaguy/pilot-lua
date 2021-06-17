@@ -10,7 +10,7 @@
 * [ ] Further documentation
 * [ ] Organize documentation pages & clean up
 
-## Parts (TO BE DOCUMENTED)
+## Parts (To be documented)
 
 * [[Part]]
   * [[string Part.ClassName|Part#string-partclassname]]
