@@ -9,6 +9,7 @@
   * [[Roblox Globals]]
 
 ## Parts
+
 * [[Part]]
   * [[Part.ClassName|Part#string-partclassname]]
   * [[Part:Trigger()|Part#void-parttrigger]]
@@ -51,7 +52,9 @@
     * [[Speaker:Chat()]]
   * [[Microcontroller]]
     * [[Microcontroller:Communicate()]]
+
 ## Additional objects
+
 * [[ScreenObject]]
   * [[ScreenObject:ChangeProperties()]]
 * [[Cursor]]
