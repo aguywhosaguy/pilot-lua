@@ -7,7 +7,7 @@
 * [[Globals]]
   * [[Microcontroller Globals]]
   * [[Roblox Globals]]
-* [[TODO LIST]]
+* [[TODO]]
 
 ## Parts
 
