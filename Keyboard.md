@@ -1,5 +1,5 @@
 # Keyboard
-**This documentation is incomplete. Please contribute via [Issues](../issues)!**
+**This documentation is incomplete. Please contribute via [Issues](../issues)!** \
 Allows you to interact with a users' key presses or simulate them.
 
 ## Table of contents
