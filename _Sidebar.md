@@ -32,12 +32,12 @@
     * string Modem:GetRequest(string domain) - NOTE: NOT HTTP
     * void Modem:SendMessage(string data, int id) - Sends a message (Like `MessagingService`) and has an event on the Modem (need to find event name, I believe its OnMessage)
   * [[Screen]]
-    * Vector2 Screen:GetDimensions()
-    * void Screen:ClearElements(string className, [\<string\>property=\<any\>value] properties)
-    * ScreenObject Screen:CreateElement(string elementClass, [\<string\>property=\<any\>value] properties)
     * [[TouchScreen]]
       * Cursor TouchScreen:GetCursor()
       * Cursor TouchScreen:GetCursors()
+    * Vector2 Screen:GetDimensions()
+    * void Screen:ClearElements(string className, [\<string\>property=\<any\>value] properties)
+    * ScreenObject Screen:CreateElement(string elementClass, [\<string\>property=\<any\>value] properties)
   * [[Rail]]
     * void SetPosition(int depth)
   * [[StarMap]]
