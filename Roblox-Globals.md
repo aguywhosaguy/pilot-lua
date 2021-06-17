@@ -2,6 +2,21 @@
 
 Only Roblox globals and libraries confirmed to be listed are shown on this page. (Some may be missing if this documentation is not consistently updated. Feel free to message me or create an `Issue` if updates are needed, preferably if you have information about the changes/additions)
 
+## Table of contents
+
+* [Basics](#basics)
+  * [float, float wait(float time=1/30)](#float-float-waitfloat-time130)
+  * [void print(any...)](#void-printany-todo)
+* [coroutine](#coroutine)
+  * [thread coroutine.create(function body)](#thread-coroutinecreatefunction-body)
+  * [any... coroutine.resume(thread target, any...)](#any-coroutineresumethread-target-any)
+  * [any... coroutine.yield(any...)](#any-coroutineyieldany)
+  * [string coroutine.status(thread target)](#string-coroutinestatusthread-target)
+* [debug](#debug)
+  * [string debug.traceback(string prefix=nil, int level=1)](#string-debugtracebackstring-prefixnil-int-level1)
+* [Functions to try to avoid](#functions-to-try-to-avoid)
+
+
 ## Basics
 
 ### [`float, float wait(float time=1/30)`](https://developer.roblox.com/en-us/api-reference/lua-docs/Roblox-Globals)
@@ -47,13 +62,13 @@ ___
 
 > Resumes the given thread, `target`. Also passes in any arguments you place after, and returns any stuff the thread returned or yielded with.
 
-__
+___
 
 ### [`any... coroutine.yield(any...)`](https://developer.roblox.com/en-us/api-reference/lua-docs/coroutine#coroutine-functions)
 
 > Works similar to `coroutine.resume`. Yields (pauses) the current thread, giving your arguments to the resumer thread, the thread that resumed the one calling yield. Once your thread gets resumed again by Roblox, it returns any arguments the new resumer passed.
 
-__
+___
 
 ### [`string coroutine.status(thread target)`](https://developer.roblox.com/en-us/api-reference/lua-docs/coroutine#coroutine-functions)
 
