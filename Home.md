@@ -56,7 +56,7 @@ If you would like to submit a wiki page, a specific Issue format for wiki pages 
 * Keyboard
   * **DOCUMENT ME** void Keyboard:SimulateKeyPress(string? key, string Player)
   * **DOCUMENT ME** void Keyboard:SimulateTextInput(string? input, string Player)
-* LifeSensor
-  * **DOCUMENT ME** map<[Player]=Vector3> LifeSensor:GetReading()
-* [[Instrument|Instrument]]
+* [[LifeSensor]]
+  * [[LifeSensor#mapplayervector3-lifesensorgetreading]]
+* [[Instrument]]
   * [[number Instrument:GetReading(int typeId=nil)|Instrument#number-instrumentgetreadingint-typeidnil]]
