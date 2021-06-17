@@ -7,7 +7,7 @@ The base type for all objects.
 
 * [`string Part.ClassName`](#string-partclassname)
 * [`void Part:Trigger()`](#void-parttrigger)
-* [`void Part:Configure(map<[property]=value> properties)`](#void-partconfiguremappropertyvalue-properties)
+* [`void Part:Configure(map<property=value> properties)`](#void-partconfiguremappropertyvalue-properties)
 * [`void Part:ConnectToEvent(string eventName, function callback)`](#void-partconnecttoeventstring-eventname-function-callback)
 
 ___
@@ -24,7 +24,7 @@ ___
 
 ___
 
-## `void Part:Configure(map<[property]=value> properties)`
+## `void Part:Configure(map<property=value> properties)`
 
 > Updates the part's configuration options.
 
