@@ -1,9 +1,14 @@
 # Navigation
+
+## Info
+
 * [[Home]]
   * [[Additional Resources]]
 * [[Globals]]
   * [[Microcontroller Globals]]
   * [[Roblox Globals]]
+
+## Objects
 * [[Part]]
   * [[string Part.ClassName|Part#string-partclassname]]
   * [[void Part:Trigger()|Part#void-parttrigger]]
