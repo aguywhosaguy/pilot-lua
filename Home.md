@@ -31,13 +31,13 @@ If you would like to submit a wiki page, a specific Issue format for wiki pages 
 * [[Part]]
   * [[string Part.ClassName|Part#string-partclassname]]
   * [[void Part:Trigger()|Part#void-parttrigger]]
-  * [[void Part:Configure(map<property=value> properties)|Part#void-partconfiguremappropertyvalue-properties]]
+  * [[void Part:Configure([\<string\>property=\<any\>value] properties)|Part#void-partconfiguremappropertyvalue-properties]]
   * [[void Part:ConnectToEvent(string eventName, function callback)|Part#void-partconnecttoeventstring-eventname-function-callback]]
   * [[Keyboard]]
     * [[void Keyboard:SimulateKeyPress(string? key, string Player)|Keyboard#void-keyboardsimulatekeypressstring-key-string-player]]
     * [[void Keyboard:SimulateTextInput(string? input, string Player)|Keyboard#void-keyboardsimulatetextinputstring-input-string-player]]
   * [[LifeSensor]]
-    * [[map<[Player]=Vector3> LifeSensor:GetReading()|LifeSensor#mapplayervector3-lifesensorgetreading]]
+    * [[ [\<string\>playerName=\<Vector3\>]position LifeSensor:GetReading()|LifeSensor#mapplayervector3-lifesensorgetreading]]
   * [[Instrument]]
     * [[number Instrument:GetReading(int typeId=nil)|Instrument#number-instrumentgetreadingint-typeidnil]]
   * [[EnergyShield]]
@@ -52,16 +52,16 @@ If you would like to submit a wiki page, a specific Issue format for wiki pages 
     * **DOCUMENT ME** void Modem:SendMessage(string data, int id) - Sends a message (Like `MessagingService`) and has an event on the Modem (need to find event name, I believe its OnMessage)
   * [[Screen]]
     * **DOCUMENT ME** Vector2 Screen:GetDimensions()
-    * **DOCUMENT ME** void Screen:ClearElements(string className, map<property=value>? properties)
-    * **DOCUMENT ME** ScreenObject Screen:CreateElement(string elementClass, map<property=value> properties)
+    * **DOCUMENT ME** void Screen:ClearElements(string className, [\<string\>property=\<any\>value] properties)
+    * **DOCUMENT ME** ScreenObject Screen:CreateElement(string elementClass, [\<string\>property=\<any\>value] properties)
     * [[TouchScreen]]
       * **DOCUMENT ME** Cursor TouchScreen:GetCursor()
-      * **DOCUMENT ME** array<Cursor> TouchScreen:GetCursors()
+      * **DOCUMENT ME** Cursor TouchScreen:GetCursors()
   * [[Rail]]
     * **DOCUMENT ME** void SetPosition(int depth)
   * [[StarMap]]
-    * **DOCUMENT ME** array<Body?> StarMap:GetBodies()
-    * **DOCUMENT ME** array<System?> StarMap:GetSystems()
+    * **DOCUMENT ME** [Body? body] StarMap:GetBodies()
+    * **DOCUMENT ME** [System? system] StarMap:GetSystems()
   * [[Telescope]]
     * **DOCUMENT ME** Coordinate? GetCoordinate(int x1, int y1, int x2, int y2)
   * [[Speaker]]
@@ -71,7 +71,7 @@ If you would like to submit a wiki page, a specific Issue format for wiki pages 
   * [[Microcontroller]]
     * **DOCUMENT ME** void? Microcontroller:Communicate(any data)
 * [[ScreenObject]]
-  * **DOCUMENT ME** void ScreenObject:ChangeProperties(map<property=value> properties)
+  * **DOCUMENT ME** void ScreenObject:ChangeProperties([\<string\>property=\<any\>value] properties)
 * [[Cursor]]
   * **DOCUMENT ME** int Cursor.X
   * **DOCUMENT ME** int Cursor.Y
