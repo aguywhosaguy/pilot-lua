@@ -15,7 +15,7 @@ If you would like to submit a wiki page, a specific Issue format for wiki pages 
 [ ] Add code examples for microcontroller entries
 [ ] Document all Parts' configurables (In detail)
 [ ] Document certain game mechanics related to microcontrollers such as Ethernet Cable and Ports
-[ ] Document 
+[ ] Further documentation
 [ ] Organize documentation pages & clean up
 
 ## Globals
