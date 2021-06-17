@@ -25,6 +25,7 @@ ___
 
 #### Code example
 
+This example gets the Screen connected to port 1, then it clears it.
 ```lua
 local myScreen = GetPartFromPort(1, "Screen") -- Gets a Screen from port 1
 myScreen:ClearElements() -- Clears the Screen. See the docs for the "Screen" part
@@ -32,9 +33,20 @@ myScreen:ClearElements() -- Clears the Screen. See the docs for the "Screen" par
 
 ___
 
-### `array GetPartsFromPort(int port)` **POTENTIALLY UNFINISHED**
+### `array GetPartsFromPort(int port, string partType)` **POTENTIALLY UNFINISHED**
 
 > Gets an array of parts from the given port number.
+
+#### Code example
+
+This example gets all Switches connected to port 1 and toggles each to be active.
+<sub>Provided by [mawesome4ever](/mawesome4ever) in [#1](../issues/1)</sub>
+```lua
+local switches = GetPartsFromPort(1, "Switch") -- Gets all parts on port 1 with the type "Switch"
+for _, switch in ipairs(switches) do -- Loops over each switch in the list of switches
+    switch:Configure( { SwitchValue = true } ) -- Sets all switches' SwitchValue options to be on, so each switch is made active
+end
+```
 
 ___
 
