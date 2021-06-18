@@ -1,4 +1,4 @@
-A device which senses life in a region. Is used to get all of the players and their positions in the local region.
+A shield made of energy. Protects against energy based weaponry.
 
 ## Table of contents
 * [`number EnergyShield:GetShieldHealth()`](#number-energyshieldgetshieldhealth)
