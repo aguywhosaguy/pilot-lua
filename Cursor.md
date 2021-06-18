@@ -1,4 +1,4 @@
-A Cursor object returned by [[TouchScreen:GetCursor()|#TouchScreen#cursor-touchscreengetcursor]] and [[TouchScreen:GetCursors()|#TouchScreen#cursor-touchscreengetcursors]]
+A Cursor object returned by [[TouchScreen:GetCursor()|TouchScreen#cursor-touchscreengetcursor]] and [[TouchScreen:GetCursors()|TouchScreen#cursor-touchscreengetcursors]]
 
 ## Table of contents
 * [`int Cursor.X`](#int-cursorx)
