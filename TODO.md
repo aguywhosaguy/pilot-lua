@@ -1,14 +1,16 @@
+Stuff still left to do on the Wiki.
+
 ## TODO LIST
 
 * [x] Document most significant Roblox globals
 * [x] Document known Microcontroller globals
 * [ ] Document additional globals
-* [ ] Document all Parts' microcontroller entries (In detail)
-* [ ] Add code examples for microcontroller entries
+* [x] Document all Parts' microcontroller entries (In detail)
+* [ ] Add code examples for most of the common microcontroller entries
 * [ ] Document all Parts' configurables (In detail)
 * [ ] Document certain game mechanics related to microcontrollers such as Ethernet Cable and Ports
 * [ ] Further documentation
-* [ ] Organize documentation pages & clean up
+* [x] Organize documentation pages & clean up
 
 ## Parts (To be documented)
 
