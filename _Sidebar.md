@@ -9,7 +9,7 @@
   * [[Roblox Globals]]
 * [[TODO]]
 
-## Parts
+## Part objects
 
 * [[Part]]
   * [[Part.ClassName|Part#string-partclassname]]
