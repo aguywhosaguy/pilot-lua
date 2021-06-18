@@ -27,4 +27,4 @@ ___
 
 ## `void newindex(Speaker self, string index, any value)`
 
-> A metamethod. Why this function is listed is currently unknown, it is likely a bug or typo.
+> A metamethod. Why this function is listed is currently unknown, it is likely to be a bug or typo.
