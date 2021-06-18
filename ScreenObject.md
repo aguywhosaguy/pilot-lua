@@ -1,7 +1,7 @@
 An object created on a [[Screen]].
 
 ## Table of contents
-* [`void ScreenObject:ChangeProperties([<string>property=<any>value] properties)`](void-screenobjectchangepropertiesstringpropertyanyvalue-properties
+* [`void ScreenObject:ChangeProperties([<string>property=<any>value] properties)`](#void-screenobjectchangepropertiesstringpropertyanyvalue-properties)
 
 ___
 
