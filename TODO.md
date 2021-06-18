@@ -13,7 +13,7 @@ Stuff still left to do on the Wiki.
 * [ ] Further documentation
 * [x] Organize documentation pages & clean up
 
-# Documentation to be done
+## Documentation to be done
 * **DOCUMENT ME** [[CoordinateInfo]]
 * **DOCUMENT ME** [[Body]]
 * **DOCUMENT ME** [[System]]
