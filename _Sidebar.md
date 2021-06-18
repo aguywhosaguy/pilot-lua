@@ -39,7 +39,7 @@
       * [[TouchScreen:GetCursors()|TouchScreen#cursor-touchscreengetcursors]]
     * [[Screen:GetDimensions()|Screen#vector2-screengetdimensions]]
     * [[Screen:ClearElements()|Screen#void-screenclearelementsstring-classnamenil-stringpropertyanyvalue-properties]]
-    * [[Screen:CreateElement()|Screen#screenobject-screencreateelementstring-elementclass-stringpropertyanyvalue-properties]]
+    * [[Screen:CreateElement()|Screen#screenobject-screencreateelementstring-classname-stringpropertyanyvalue-properties]]
   * [[Rail]]
     * [[Rail:SetPosition()|Rail#]]
   * [[StarMap]]
