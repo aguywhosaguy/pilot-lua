@@ -40,12 +40,12 @@
     * **DOCUMENT ME** ScreenObject Screen:CreateElement(string elementClass, [\<string\>property=\<any\>value] properties)
     * [[TouchScreen]]
       * **DOCUMENT ME** Cursor TouchScreen:GetCursor()
-      * **DOCUMENT ME** Cursor TouchScreen:GetCursors()
+      * **DOCUMENT ME** [Cursor] TouchScreen:GetCursors()
   * [[Rail]]
     * **DOCUMENT ME** void SetPosition(int depth)
   * [[StarMap]]
-    * **DOCUMENT ME** [Body? body] StarMap:GetBodies()
-    * **DOCUMENT ME** [System? system] StarMap:GetSystems()
+    * **DOCUMENT ME** [Body?] StarMap:GetBodies()
+    * **DOCUMENT ME** [System?] StarMap:GetSystems()
   * [[Telescope]]
     * **DOCUMENT ME** Coordinate? GetCoordinate(int x1, int y1, int x2, int y2)
   * [[Speaker]]
@@ -62,3 +62,5 @@
   * **DOCUMENT ME** string Cursor.Player
   * **DOCUMENT ME** boolean Cursor.Pressed
 * **DOCUMENT ME** [[Coordinate]]
+* **DOCUMENT ME** [[Body]]
+* **DOCUMENT ME** [[System]]
