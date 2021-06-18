@@ -42,7 +42,7 @@
       * **DOCUMENT ME** Cursor TouchScreen:GetCursor()
       * **DOCUMENT ME** [Cursor] TouchScreen:GetCursors()
   * [[Rail]]
-    * **DOCUMENT ME** void SetPosition(int depth)
+    * **DOCUMENT ME** void Rail:SetPosition(int depth)
   * [[StarMap]]
     * **DOCUMENT ME** [Body?] StarMap:GetBodies()
     * **DOCUMENT ME** [System?] StarMap:GetSystems()
