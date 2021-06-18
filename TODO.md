@@ -63,6 +63,6 @@ Stuff still left to do on the Wiki.
   * **DOCUMENT ME** int Cursor.Y
   * **DOCUMENT ME** string Cursor.Player
   * **DOCUMENT ME** boolean Cursor.Pressed
-* **DOCUMENT ME** [[Coordinate]]
+* **DOCUMENT ME** [[CoordinateInfo]]
 * **DOCUMENT ME** [[Body]]
 * **DOCUMENT ME** [[System]]
