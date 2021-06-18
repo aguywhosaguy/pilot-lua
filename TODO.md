@@ -13,7 +13,7 @@ Stuff still left to do on the Wiki.
 * [ ] Further documentation
 * [x] Organize documentation pages & clean up
 
-## Parts (To be documented)
+## Documentation
 
 * [[Part]]
   * [[string Part.ClassName|Part#string-partclassname]]
@@ -28,42 +28,44 @@ Stuff still left to do on the Wiki.
   * [[Instrument]]
     * [[number Instrument:GetReading(int typeId=nil)|Instrument#number-instrumentgetreadingint-typeidnil]]
   * [[EnergyShield]]
-    * **DOCUMENT ME** number EnergyShield:GetShieldHealth()
+    * number EnergyShield:GetShieldHealth()
   * [[Disk]]
-    * **DOCUMENT ME** void Disk:ClearDisk()
-    * **DOCUMENT ME** void Disk:Write(string key, string data)
-    * **DOCUMENT ME** string Disk:Read(string key)
+    * void Disk:ClearDisk()
+    * void Disk:Write(string key, string data)
+    * string Disk:Read(string key)
   * [[Modem]]
-    * **DOCUMENT ME** void Modem:PostRequest(string domain, string data) - NOTE: NOT HTTP
-    * **DOCUMENT ME** string Modem:GetRequest(string domain) - NOTE: NOT HTTP
-    * **DOCUMENT ME** void Modem:SendMessage(string data, int id) - Sends a message (Like `MessagingService`) and has an event on the Modem (need to find event name, I believe its OnMessage)
+    * void Modem:PostRequest(string domain, string data) - NOTE: NOT HTTP
+    * string Modem:GetRequest(string domain) - NOTE: NOT HTTP
+    * void Modem:SendMessage(string data, int id) - Sends a message (Like `MessagingService`) and has an event on the Modem (need to find event name, I believe its OnMessage)
   * [[Screen]]
-    * **DOCUMENT ME** Vector2 Screen:GetDimensions()
-    * **DOCUMENT ME** void Screen:ClearElements(string className, [\<string\>property=\<any\>value] properties)
-    * **DOCUMENT ME** ScreenObject Screen:CreateElement(string elementClass, [\<string\>property=\<any\>value] properties)
+    * Vector2 Screen:GetDimensions()
+    * void Screen:ClearElements(string className, [\<string\>property=\<any\>value] properties)
+    * ScreenObject Screen:CreateElement(string elementClass, [\<string\>property=\<any\>value] properties)
     * [[TouchScreen]]
-      * **DOCUMENT ME** Cursor TouchScreen:GetCursor()
-      * **DOCUMENT ME** [Cursor] TouchScreen:GetCursors()
+      * Cursor TouchScreen:GetCursor()
+      * [Cursor] TouchScreen:GetCursors()
   * [[Rail]]
-    * **DOCUMENT ME** void Rail:SetPosition(int depth)
+    * void Rail:SetPosition(int depth)
   * [[StarMap]]
-    * **DOCUMENT ME** [Body?] StarMap:GetBodies()
-    * **DOCUMENT ME** [System?] StarMap:GetSystems()
+    * [Body] StarMap:GetBodies()
+    * [System] StarMap:GetSystems()
   * [[Telescope]]
-    * **DOCUMENT ME** Coordinate? GetCoordinate(int x1, int y1, int x2, int y2)
+    * CoordinateInfo GetCoordinate(int x1, int y1, int x2, int y2)
   * [[Speaker]]
-    * **DOCUMENT ME** void Speaker:PlaySound(int soundId)
-    * **DOCUMENT ME** void Speaker:ClearSounds()
-    * **DOCUMENT ME** void Speaker:Chat(string message)
+    * void Speaker:PlaySound(int soundId)
+    * void Speaker:ClearSounds()
+    * void Speaker:Chat(string message)
   * [[Microcontroller]]
-    * **DOCUMENT ME** void? Microcontroller:Communicate(any data)
+    * void? Microcontroller:Communicate(any data)
 * [[ScreenObject]]
-  * **DOCUMENT ME** void ScreenObject:ChangeProperties([\<string\>property=\<any\>value] properties)
+  * void ScreenObject:ChangeProperties([\<string\>property=\<any\>value] properties)
 * [[Cursor]]
-  * **DOCUMENT ME** int Cursor.X
-  * **DOCUMENT ME** int Cursor.Y
-  * **DOCUMENT ME** string Cursor.Player
-  * **DOCUMENT ME** boolean Cursor.Pressed
+  * int Cursor.X
+  * int Cursor.Y
+  * string Cursor.Player
+  * boolean Cursor.Pressed
+
+# Documentation to be done
 * **DOCUMENT ME** [[CoordinateInfo]]
 * **DOCUMENT ME** [[Body]]
 * **DOCUMENT ME** [[System]]
