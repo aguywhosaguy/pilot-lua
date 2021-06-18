@@ -55,6 +55,8 @@
 
 ## Additional objects
 
+Additional objects used in [[Microcontroller]]s
+
 * [[ScreenObject]]
   * [[ScreenObject:ChangeProperties()|ScreenObject#void-screenobjectchangepropertiesstringpropertyanyvalue-properties]]
 * [[Cursor]]
