@@ -55,7 +55,7 @@
 
 ## Additional objects
 
-Additional objects used in [[Microcontroller]]s
+Additional objects used in [[Microcontrollers|Microcontroller]]
 
 * [[ScreenObject]]
   * [[ScreenObject:ChangeProperties()|ScreenObject#void-screenobjectchangepropertiesstringpropertyanyvalue-properties]]
