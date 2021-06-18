@@ -3,7 +3,7 @@ A part which can display GUI content on its surface
 ## Table of contents
 * [`Vector2 Screen:GetDimensions()`](#vector2-screengetdimensions)
 * [`void Screen:ClearElements(string className, [\<string\>property=\<any\>value] properties)`](#void-screenclearelementsstring-classnamenil-stringpropertyanyvalue-properties)
-* [`ScreenObject Screen:CreateElement(string elementClass, [\<string\>property=\<any\>value] properties)`](#screenobject-screencreateelementstring-elementclass-stringpropertyanyvalue-properties)
+* [`ScreenObject Screen:CreateElement(string elementClass, [\<string\>property=\<any\>value] properties)`](#screenobject-screencreateelementstring-classname-stringpropertyanyvalue-properties)
 
 ___
 
