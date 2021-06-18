@@ -15,6 +15,8 @@
   * [[Part:Trigger()|Part#void-parttrigger]]
   * [[Part:Configure()|Part#void-partconfigurestringpropertyanyvalue-properties]]
   * [[Part:ConnectToEvent()|Part#void-partconnecttoeventstring-eventname-function-callback]]
+  * [[Gyro]]
+    * [[Gyro:PointAt()|Gyro#void-gyropointatvector3-position]]
   * [[Keyboard]]
     * [[Keyboard:SimulateKeyPress()|Keyboard#void-keyboardsimulatekeypressstring-key-string-player]]
     * [[Keyboard:SimulateTextInput()|Keyboard#void-keyboardsimulatetextinputstring-input-string-player]]
