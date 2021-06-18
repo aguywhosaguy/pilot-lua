@@ -1,4 +1,4 @@
-A part used to store information for microcontrollers.
+A part used to store data from microcontrollers.
 
 ## Table of contents
 * [`void Disk:ClearDisk()`](#void-diskcleardisk)
