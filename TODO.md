@@ -13,7 +13,12 @@ Stuff still left to do on the Wiki.
 * [ ] Further documentation
 * [x] Organize documentation pages & clean up
 
-## Documentation
+# Documentation to be done
+* **DOCUMENT ME** [[CoordinateInfo]]
+* **DOCUMENT ME** [[Body]]
+* **DOCUMENT ME** [[System]]
+
+## Documented content
 
 * [[Part]]
   * [[string Part.ClassName|Part#string-partclassname]]
@@ -64,8 +69,3 @@ Stuff still left to do on the Wiki.
   * int Cursor.Y
   * string Cursor.Player
   * boolean Cursor.Pressed
-
-# Documentation to be done
-* **DOCUMENT ME** [[CoordinateInfo]]
-* **DOCUMENT ME** [[Body]]
-* **DOCUMENT ME** [[System]]
