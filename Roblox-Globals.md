@@ -3,7 +3,8 @@ Roblox globals and libraries accessible to microcontrollers.
 ## Table of contents
 
 * [Basics](#basics)
-  * [`float, float wait(float time=1/30)`](#float-float-waitfloat-time130)
+  * [`number, number wait(float time=1/30)`](#number,number-waitfloat-time130)
+  * [`tick`](#number-tick)
   * [`void print(any...)`](#void-printany-todo)
 * [coroutine](#coroutine)
   * [`thread coroutine.create(function body)`](#thread-coroutinecreatefunction-body)
@@ -17,11 +18,17 @@ Roblox globals and libraries accessible to microcontrollers.
 
 ## Basics
 
-### [`float, float wait(float time=1/30)`](https://developer.roblox.com/en-us/api-reference/lua-docs/Roblox-Globals)
+### [`number, number wait(float time=1/30)`](https://developer.roblox.com/en-us/api-reference/lua-docs/Roblox-Globals)
 
 > Waits for a given time (in seconds). You can't wait any shorter than two Roblox ticks which is about `1/30`th of a second (Usually called "Heartbeat" which is very similar to FPS, but its not frames being rendered, its physics and other stuff like sending data. A better way to write it would be TPS).
 > It returns the time that `wait` waited for which isn't perfect (Measuring the time yourself is more accurate), and it returns the same value that `elapsedTime()` would return. `elapsedTime` is removed from microcontrollers so this is one way to access this however better time measurements exist.
 > You can estimate the TPS of the server like so: `2/wait()`. This basically says "how many times wait would get called to take two seconds?" The time wait takes is roughly `2 * 1/TPS` because the time a tick takes is roughly `1/TPS`, so times two ticks for the wait time. You can simplify this to "wait takes roughly `2/TPS`" so to estimate `TPS` you can just do `2/wait()`.
+
+___
+
+### `number tick()`
+
+> Returns the current time on the server in seconds.
 
 ___
 
