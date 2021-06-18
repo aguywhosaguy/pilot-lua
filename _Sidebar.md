@@ -32,7 +32,7 @@
   * [[Modem]]
     * [[Modem:PostRequest()|Modem#void-modempostrequeststring-domain-string-data]]
     * [[Modem:GetRequest()|Modem#string-modemgetrequeststring-domain]]
-    * [[Modem:SendMessage()|Modem#void-sendmessagestring-data-int-id]]
+    * [[Modem:SendMessage()|Modem#void-modemsendmessagestring-data-int-id]]
   * [[Screen]]
     * [[TouchScreen]]
       * [[TouchScreen:GetCursor()|TouchScreen#cursor-touchscreengetcursor]]
