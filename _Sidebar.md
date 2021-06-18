@@ -56,7 +56,7 @@
 ## Additional objects
 
 * [[ScreenObject]]
-  * [[ScreenObject:ChangeProperties()|ScreenObject#]]
+  * [[ScreenObject:ChangeProperties()|ScreenObject#void-screenobjectchangepropertiesstringpropertyanyvalue-properties]]
 * [[Cursor]]
   * [[Cursor.X|Cursor#]]
   * [[Cursor.Y|Cursor#]]
