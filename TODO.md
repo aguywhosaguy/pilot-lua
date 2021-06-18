@@ -19,8 +19,6 @@ Stuff still left to do on the Wiki.
 * **DOCUMENT ME** [[System]]
 * **DOCUMENT ME** [[Signal]]
 * [[Part]]
-  * [[Gyro]]
-    * **DOCUMENT ME** void Gyro:PointAt(Vector3 position)
   * **DOCUMENT ME** Signal Part.Triggered
   * **DOCUMENT ME** Signal Part.Configured
   * [[Microphone]]
@@ -46,6 +44,8 @@ Stuff still left to do on the Wiki.
   * [[void Part:Trigger()|Part#void-parttrigger]]
   * [[void Part:Configure([\<string\>property=\<any\>value] properties)|Part#void-partconfigurestringpropertyanyvalue-properties]]
   * [[void Part:ConnectToEvent(string eventName, function callback)|Part#void-partconnecttoeventstring-eventname-function-callback]]
+  * [[Gyro]]
+    * void Gyro:PointAt(Vector3 position)
   * [[Keyboard]]
     * [[void Keyboard:SimulateKeyPress(string? key, string Player)|Keyboard#void-keyboardsimulatekeypressstring-key-string-player]]
     * [[void Keyboard:SimulateTextInput(string? input, string Player)|Keyboard#void-keyboardsimulatetextinputstring-input-string-player]]
