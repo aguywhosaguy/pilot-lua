@@ -1,4 +1,4 @@
-A gasoline powered thruster.
+A gasoline powered alternative to the thruster.
 
 ## Table of contents
 
