@@ -10,8 +10,8 @@ Microcontroller-specific globals. These are the bridge from the code to the game
   * [`void TriggerPort(int port)`](#void-triggerportint-port)
 * [Miscellaneous](#miscellaneous)
   * [`void Beep(float pitch)`](#void-beepfloat-pitch)
-  * [`any JSONDecode(string json)`](#any-jsondecodestring-json)
-  * [`string JSONEncode(any object)`](#string-jsonencodeany-object)
+  * [`any JSONDecode(string json)`](#any-jsondecodestring-json-only-available-in-unstable)
+  * [`string JSONEncode(any data)`](#string-jsonencodeany-data-only-available-in-unstable)
 
 ___
 
