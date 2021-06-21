@@ -34,7 +34,7 @@ ___
 
 ### `void print(any...)` **TODO**
 
-> Prints some output. In Waste of Space this likely has been overridden to display output to a screen or as a chat bubble. It likely does not do the same thing as it does in regular Roblox code.
+> Prints some output to the server console. (Not currently useful)
 
 ___
 
