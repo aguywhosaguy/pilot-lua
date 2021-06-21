@@ -14,10 +14,10 @@ Stuff still left to do on the Wiki.
 * [x] Organize documentation pages & clean up
 
 ## Documentation to be done
-* **DOCUMENT ME** [[CoordinateInfo]]
-* **DOCUMENT ME** [[Body]]
-* **DOCUMENT ME** [[System]]
-* **DOCUMENT ME** [[Signal]]
+* **DOCUMENT ME** [[CoordinateInfo TODO]]
+* **DOCUMENT ME** [[Body TODO]]
+* **DOCUMENT ME** [[System TODO]]
+* **DOCUMENT ME** [[Signal TODO]]
 * [[Part]]
   * **DOCUMENT ME** Signal Part.Triggered
   * **DOCUMENT ME** Signal Part.Configured
