@@ -8,7 +8,7 @@ A part which projects someone's avatar above it.
 
 ### Events
 
-* [`Signal Hologram.Configured`](#signal-hologramconfigured)
+* [`Signal Hologram.Configured()`](#signal-hologramconfigured)
 
 ___
 
@@ -19,6 +19,6 @@ ___
 
 ___
 
-## `Signal Hologram.Configured`
+## `Signal Hologram.Configured()`
 
 > Fires when the Hologram is reconfigured
