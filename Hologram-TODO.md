@@ -14,6 +14,7 @@ ___
 
 ## `int Hologram.UserId`
 
+**Default**: `1`
 > The `UserId` of the player to project.
 
 ___
