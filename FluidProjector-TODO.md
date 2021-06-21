@@ -9,7 +9,7 @@ A part which projects someone's avatar above it.
 
 ### Events
 
-* [`Signal FluidProjector.Configured`](#signal-fluidprojectorconfigured)
+* [`Signal FluidProjector.Configured()`](#signal-fluidprojectorconfigured)
 
 ___
 
@@ -27,6 +27,6 @@ ___
 
 ___
 
-## `Signal FluidProjector.Configured`
+## `Signal FluidProjector.Configured()`
 
 > Fires when the FluidProjector is reconfigured
