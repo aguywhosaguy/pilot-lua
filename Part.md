@@ -5,7 +5,7 @@ The base type for all objects.
 
 * [`string Part.ClassName`](#string-partclassname)
 * [`void Part:Trigger()`](#void-parttrigger)
-* [`void Part:Configure([<string>property=<any>value] properties)`](#void-partconfigurestringpropertyanyvalue-properties)
+* [`void Part:Configure(dictionary properties)`](#void-partconfiguredictionary-properties)
 * [`void Part:ConnectToEvent(string eventName, function callback)`](#void-partconnecttoeventstring-eventname-function-callback)
 
 ___
@@ -22,7 +22,7 @@ ___
 
 ___
 
-## `void Part:Configure([<string>property=<any>value] properties)`
+## `void Part:Configure(dictionary properties)`
 
 > Updates the part's configuration options.
 
