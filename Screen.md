@@ -15,7 +15,7 @@ ___
 
 ## `void Screen:ClearElements(string className=nil, dictionary properties)`
 
-> Clears the elements on the screen. Optional a `className` can be passed to select only a specific type of object. (The effect of `properties` is currently unknown)
+> Clears the elements on the screen. Optionally a `className` can be passed to select only a specific type of object. (The effect of `properties` is currently unknown)
 
 ___
 
