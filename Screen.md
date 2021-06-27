@@ -13,12 +13,12 @@ ___
 
 ___
 
-## `void Screen:ClearElements(string className=nil, [<string>property=<any>value] properties)`
+## `void Screen:ClearElements(string className=nil, dictionary properties)`
 
-> Clears the elements on the screen. Optional a `className` can be passed to select only a specific type of object. (The effect of `properties` is currently unknown but likely selects objects with those properties)
+> Clears the elements on the screen. Optional a `className` can be passed to select only a specific type of object. (The effect of `properties` is currently unknown)
 
 ___
 
-## `ScreenObject Screen:CreateElement(string className, [<string>property=<any>value] properties)`
+## `ScreenObject Screen:CreateElement(string className, dictionary properties)`
 
 > Creates a [[ScreenObject]] with the given `className` and returns it after setting the given `properties` for the object.
