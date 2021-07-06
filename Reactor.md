@@ -3,6 +3,7 @@ A structure which generates steam using water and heat from radiation.
 
 ## Table of contents
 
+### Methods
 * [`array Reactor:GetFuel()`](#array-reactorgetfuel)
 ___
 
