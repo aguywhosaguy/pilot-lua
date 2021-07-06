@@ -2,8 +2,8 @@
 
 * [`void Keyboard:SimulateKeyPress(string? key, string Player)`](#void-keyboardsimulatekeypressstring-key-string-player)
 * [`void Keyboard:SimulateTextInput(string? input, string Player)`](#void-keyboardsimulatetextinputstring-input-string-player)
-* [`Signal Keyboard.KeyPressed(KeyCode key, string Player)`](#signal-keyboardkeypressedkeycode-key-string-player)
-* [`Signal Keyboard.TextInputted(String text, string Player)`](#signal-keyboardtextinputtedstring-text-string-player)
+* [`Event Keyboard.KeyPressed(KeyCode key, string Player)`](#event-keyboardkeypressedkeycode-key-string-player)
+* [`Event Keyboard.TextInputted(String text, string Player)`](#event-keyboardtextinputtedstring-text-string-player)
 ___
 
 ## `void Keyboard:SimulateKeyPress(string? key, string Player)`
@@ -18,12 +18,12 @@ ___
 
 ___
 
-## `Signal Keyboard.KeyPressed(KeyCode key, string Player)`
+## `Event Keyboard.KeyPressed(KeyCode key, string Player)`
 
 > A Signal which fires when a Player presses a key on the Keyboard.
 
 ___
 
-## `Signal Keyboard.TextInputted(String text, string Player)`
+## `Event Keyboard.TextInputted(String text, string Player)`
 
 > A Signal which fires when a Player writes a sentence on the Keyboard.
