@@ -2,8 +2,8 @@ A part used to store data from microcontrollers.
 
 ## Table of contents
 * [`void Disk:ClearDisk()`](#void-diskcleardisk)
-* [`void Disk:ClearDisk()`](#void-diskwritestring-key-string-data)
-* [`void Disk:ClearDisk()`](#string-diskreadstring-key)
+* [`void Disk:Write()`](#void-diskwritestring-key-string-data)
+* [`void Disk:Read()`](#string-diskreadstring-key)
 
 ___
 
