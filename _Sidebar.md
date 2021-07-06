@@ -59,6 +59,8 @@
     * [[Speaker:PlaySound()|Speaker#void-speakerplaysoundint-soundid]]
     * [[Speaker:ClearSounds()|Speaker#void-speakerclearsounds]]
     * [[Speaker:Chat()|Speaker#void-speakerchatstring-message]]
+* [[Reactor]]
+    * [[Reactor:GetFuel()|Reactor#array-reactorgetfuel]]
 * [[Microcontroller]]
     * [[Microcontroller:Communicate()|Microcontroller#void-microcontrollercommunicateany-data]]
 
