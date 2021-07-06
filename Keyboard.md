@@ -2,8 +2,11 @@ A device which allows you to get player input using a keyboard-like interface.
 
 ## Table of contents
 
+### Methods
 * [`void Keyboard:SimulateKeyPress(string? key, string Player)`](#void-keyboardsimulatekeypressstring-key-string-player)
 * [`void Keyboard:SimulateTextInput(string? input, string Player)`](#void-keyboardsimulatetextinputstring-input-string-player)
+
+### Events
 * [`Event Keyboard.KeyPressed(KeyCode key, string Player)`](#event-keyboardkeypressedkeycode-key-string-player)
 * [`Event Keyboard.TextInputted(String text, string Player)`](#event-keyboardtextinputtedstring-text-string-player)
 ___
