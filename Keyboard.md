@@ -1,6 +1,6 @@
 ## Table of contents
 
-A device which mimics a real-life keyboard and allows you to get player input using a keyboard-like interface.
+A device which allows you to get player input using a keyboard-like interface.
 
 * [`void Keyboard:SimulateKeyPress(string? key, string Player)`](#void-keyboardsimulatekeypressstring-key-string-player)
 * [`void Keyboard:SimulateTextInput(string? input, string Player)`](#void-keyboardsimulatetextinputstring-input-string-player)
