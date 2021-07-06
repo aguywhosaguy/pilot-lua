@@ -5,7 +5,8 @@ Allows you to interact with a users' key presses or simulate them.
 
 * [`void Keyboard:SimulateKeyPress(string? key, string Player)`](#void-keyboardsimulatekeypressstring-key-string-player)
 * [`void Keyboard:SimulateTextInput(string? input, string Player)`](#void-keyboardsimulatetextinputstring-input-string-player)
-
+* [`Signal Keyboard.KeyPressed(KeyCode key, string Player)`](#void-keyboardsimulatetextinputstring-input-string-player)
+* [`Signal Keyboard.TextInputted(String text, string Player)`](#void-keyboardsimulatetextinputstring-input-string-player)
 ___
 
 ## `void Keyboard:SimulateKeyPress(string? key, string Player)`
@@ -17,3 +18,15 @@ ___
 ## `void Keyboard:SimulateTextInput(string? input, string Player)`
 
 > Takes a string as input and simulates typing that string for the Keyboard.
+
+___
+
+## `Signal Keyboard.KeyPressed(KeyCode key, string Player)`
+
+> A Signal which fires when a Player presses a key on the Keyboard.
+
+___
+
+## `Signal Keyboard.TextInputted(String text, string Player)`
+
+> A Signal which fires when a Player writes a sentence on the Keyboard.
