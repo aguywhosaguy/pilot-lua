@@ -10,6 +10,7 @@ Roblox globals and libraries accessible to microcontrollers.
   * [`thread coroutine.create(function body)`](#thread-coroutinecreatefunction-body)
   * [`any... coroutine.resume(thread target, any...)`](#any-coroutineresumethread-target-any)
   * [`any... coroutine.yield(any...)`](#any-coroutineyieldany)
+  * [`thread coroutine.wrap(function f)`](#thread-coroutinewrapfunction-f)
   * [`string coroutine.status(thread target)`](#string-coroutinestatusthread-target)
 * [debug](#debug)
   * [`string debug.traceback(string prefix=nil, int level=1)`](#string-debugtracebackstring-prefixnil-int-level1)
@@ -72,6 +73,12 @@ ___
 ### [`any... coroutine.yield(any...)`](https://developer.roblox.com/en-us/api-reference/lua-docs/coroutine#coroutine-functions)
 
 > Works similar to `coroutine.resume`. Yields (pauses) the current thread, giving your arguments to the resumer thread, the thread that resumed the one calling yield. Once your thread gets resumed again by Roblox, it returns any arguments the new resumer passed.
+
+___
+
+### [`thread coroutine.wrap(function f)`](https://developer.roblox.com/en-us/api-reference/lua-docs/coroutine#coroutine-functions)
+
+> Creates a new coroutine, with body f. f must be a Lua function. Returns a function that resumes the coroutine each time it is called. Any arguments passed to the function behave as the extra arguments to resume. Returns the same values returned by resume, except the first boolean. In case of error, propagates the error.
 
 ___
 
