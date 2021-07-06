@@ -1,4 +1,4 @@
-The Gryo part actively aims itself towards a target. It can be used to create missiles which follow the player.
+The Gyro part actively aims itself towards a target. It can be used to create missiles which follow the player.
 
 ## Table of Contents
 
