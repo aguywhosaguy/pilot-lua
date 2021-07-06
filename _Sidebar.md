@@ -20,6 +20,8 @@
   * [[Keyboard]]
     * [[Keyboard:SimulateKeyPress()|Keyboard#void-keyboardsimulatekeypressstring-key-string-player]]
     * [[Keyboard:SimulateTextInput()|Keyboard#void-keyboardsimulatetextinputstring-input-string-player]]
+    * [[Keyboard.KeyPressed|Keyboard#void-keyboardsimulatetextinputstring-input-string-player]]
+    * [[Keyboard.TextInputted|Keyboard#void-keyboardsimulatetextinputstring-input-string-player]]
   * [[LifeSensor]]
     * [[LifeSensor:GetReading()|LifeSensor#stringplayernamevector3position-lifesensorgetreading]]
   * [[Instrument]]
