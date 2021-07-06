@@ -1,6 +1,6 @@
-## Table of contents
-
 A device which allows you to get player input using a keyboard-like interface.
+
+## Table of contents
 
 * [`void Keyboard:SimulateKeyPress(string? key, string Player)`](#void-keyboardsimulatekeypressstring-key-string-player)
 * [`void Keyboard:SimulateTextInput(string? input, string Player)`](#void-keyboardsimulatetextinputstring-input-string-player)
