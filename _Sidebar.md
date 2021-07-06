@@ -43,11 +43,6 @@
     * [[Screen:GetDimensions()|Screen#vector2-screengetdimensions]]
     * [[Screen:ClearElements()|Screen#void-screenclearelementsstring-classnamenil-dictionary-properties]]
     * [[Screen:CreateElement()|Screen#screenobject-screencreateelementstring-classname-dictionary-properties]]
-* [[Cursor]]
-  * [[Cursor.X|Cursor#]]
-  * [[Cursor.Y|Cursor#]]
-  * [[Cursor.Player|Cursor#]]
-  * [[Cursor.Pressed|Cursor#]]
 * [[Rail]]
     * [[Rail:SetPosition()|Rail#void-railsetpositionint-depth]]
 * [[StarMap]]
@@ -63,6 +58,11 @@
     * [[Reactor:GetFuel()|Reactor#array-reactorgetfuel]]
 * [[Microcontroller]]
     * [[Microcontroller:Communicate()|Microcontroller#void-microcontrollercommunicateany-data]]
+* [[Cursor]]
+  * [[Cursor.X|Cursor#]]
+  * [[Cursor.Y|Cursor#]]
+  * [[Cursor.Player|Cursor#]]
+  * [[Cursor.Pressed|Cursor#]]
 
 ## Additional objects
 
