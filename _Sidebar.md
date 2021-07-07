@@ -75,3 +75,9 @@ Additional objects used in [[Microcontrollers|Microcontroller]]
 * [[CoordinateInfo (TODO)|TODO]]
 * [[Body (TODO)|TODO]]
 * [[System (TODO)|TODO]]
+
+## Public Resources
+
+Public code that enhances the experience of using a [[Microcontroller|Microcontroller]].
+
+* [[Weldify's Signal class|Weldify's Signal class]]
