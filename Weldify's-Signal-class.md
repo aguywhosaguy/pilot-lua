@@ -94,6 +94,8 @@ function Signal:Connect(handler)
 	local connection = SignalConnection.new(self._handlers, index, handler)
 
 	table.insert(self._handlers, index, connection)
+	
+	return connection
 end
 
 function Signal:Wait()
