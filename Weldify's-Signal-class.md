@@ -1,4 +1,4 @@
-A class which lets you create signals similar to Roblox instance signals like Part.Touched. Do not mistake with WOS's internal Signal class! This class comes with a nested SignalConnection which you dont need to create, its just a backbone of the Signal class itself!
+A class which lets you create signals similar to Roblox instance signals like Part.Touched. Do not mistake with WOS's internal Signal class! This class comes with a nested SignalConnection class which you dont need to create, its just a backbone of the Signal class itself and should be ignored!
 
 ## Table of contents
 
