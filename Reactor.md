@@ -5,6 +5,7 @@ A structure which generates steam using water and heat from radiation.
 
 ### Methods
 * [`array Reactor:GetFuel()`](#array-reactorgetfuel)
+* [`number Reactor:GetTemp()`](#number-reactorgettemp)
 ___
 
 ## `array Reactor:GetFuel()`
@@ -27,3 +28,8 @@ while wait() do
  end
 end
 ```
+___
+
+## `number Reactor:GetTemp()`
+
+> Returns a numeric value representing the current temperature of the Reactor in Fahrenheit. 
