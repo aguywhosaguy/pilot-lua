@@ -1,4 +1,3 @@
-**This documentation is incomplete. Please contribute via [Issues](../issues)!** \
 A device which allows you to recieve player chat messages.
 
 ## Table of contents
