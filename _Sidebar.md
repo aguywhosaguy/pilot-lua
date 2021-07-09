@@ -34,7 +34,7 @@
     * [[Disk:ClearDisk()|Disk#void-diskcleardisk]]
     * [[Disk:Write()|Disk#void-diskwritestring-key-string-data]]
     * [[Disk:Read()|Disk#string-diskreadstring-key]]
-    * [[Disk:ReadEntireDisk()|Disk#string-diskreadentiredisk]]
+    * [[Disk:ReadEntireDisk()|Disk#dictionary-diskreadentiredisk]]
   * [[Bin]]
     * [[Bin:GetAmount()|Bin#number-bingetamount]]
     * [[Bin:GetResouce()|Bin#string-bingetresource]]
