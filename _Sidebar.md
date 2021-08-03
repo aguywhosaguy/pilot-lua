@@ -37,7 +37,7 @@
     * [[Disk:ReadEntireDisk()|Disk#dictionary-diskreadentiredisk]]
   * [[Bin]]
     * [[Bin:GetAmount()|Bin#number-bingetamount]]
-    * [[Bin:GetResouce()|Bin#string-bingetresource]]
+    * [[Bin:GetResource()|Bin#string-bingetresource]]
   * [[Modem]]
     * [[Modem:PostRequest()|Modem#void-modempostrequeststring-domain-string-data]]
     * [[Modem:GetRequest()|Modem#string-modemgetrequeststring-domain]]
