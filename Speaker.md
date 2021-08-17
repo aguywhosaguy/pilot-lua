@@ -22,9 +22,3 @@ ___
 ## `void Speaker:Chat(string message)`
 
 > Displays the given `message` in a chat bubble above the Speaker part.
-
-___
-
-## `void newindex(Speaker self, string index, any value)`
-
-> A metamethod. Why this function is listed is currently unknown, it is likely to be a bug or typo.
