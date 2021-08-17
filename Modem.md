@@ -17,15 +17,15 @@ ___
 
 ## `void Modem:PostRequest(string domain, string data)`
 
-> Posts the `data` onto the `domain`. Lock your microcontroller to protect the data from being edited by other players.
-> This does not emit an HTTP request or access the web.
+> Posts the `data` onto the `domain` in the WOS internet. Lock your microcontroller to protect the data from being edited by other players.
+> This can't be used to access the web.
 
 ___
 
 ## `string Modem:GetRequest(string domain)`
 
-> Gets the data listed on the given `domain`.
-> This does not emit an HTTP request or access the web.
+> Gets the data listed on the given `domain` in the WOS internet.
+> This can't be used to access the web.
 
 ___
 
