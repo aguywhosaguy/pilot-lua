@@ -31,4 +31,4 @@ ___
 
 ## `Signal Keyboard.TextInputted(String text, string Player)`
 
-> A Signal which fires when a Player writes a sentence on the Keyboard.
+> A Signal which fires when a Player presses "Enter" on the keyboard.
