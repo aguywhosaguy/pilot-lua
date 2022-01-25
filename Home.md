@@ -1,3 +1,9 @@
+# No longer maintained
+
+This wiki project is now unmaintained. You can clone it from `https://github.com/Hexcede/pilot.lua.wiki.git` if you'd like to maintain a fork yourself.
+
+---
+
 Unofficial Waste of Space Microcontroller Documentation
 
 ## How to contribute to the wiki
