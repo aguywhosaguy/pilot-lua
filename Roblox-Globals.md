@@ -33,17 +33,17 @@ ___
 
 ___
 
-### `void print(any...)` **TODO**
+### `void print(any...)`
 
-> Prints some output to the server console. (Not currently useful)
+> Prints the arguments given to it to the developer console of the player who locked the Microcontroller.
 
 ___
 
 ## [`coroutine`](https://developer.roblox.com/en-us/api-reference/lua-docs/coroutine)
 
-A library designed for creating threads. Its not important to understand how threads work on the inside, but, its good to mention that threads are actually very smart.
+A library designed for creating threads. It's not important to understand how threads work on the inside, but it's good to mention that threads are actually very smart.
 
-They don't cost a lot because all Roblox basically does is change *where* it wants to run code inside of your thread, and then when its done or when it pauses or errors, Roblox goes back to wherever it needs to be. This means that threads can be used as a way to stitch pieces of code together, but, like they are named, they are also useful for making things that appear to run at once.
+They don't cost a lot because all Roblox basically does is change *where* it wants to run code inside of your thread, and then when it's done or when it pauses or errors, Roblox goes back to wherever it needs to be. This means that threads can be used as a way to stitch pieces of code together, but, like they are named, they are also useful for making things that appear to run at once.
 
 ___
 
