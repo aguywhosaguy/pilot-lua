@@ -11,9 +11,13 @@ ___
 
 > Sets the given `properties` for the ScreenObject.
 
+___
+
 ## `void ScreenObject:AddChild(ScreenObject child)`
 
 > Parents the given ScreenObject to this one.
+
+___
 
 ## `void ScreenObject:Destroy()`
 
