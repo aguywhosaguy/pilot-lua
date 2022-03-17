@@ -85,6 +85,8 @@ Stuff still left to do on the Wiki.
     * void? Microcontroller:Communicate(any data)
 * [[ScreenObject]]
   * void ScreenObject:ChangeProperties([\<string\>property=\<any\>value] properties)
+  * void ScreenObject:AddChild(ScreenObject child)
+  * void ScreenObject:Destroy()
 * [[Cursor]]
   * int Cursor.X
   * int Cursor.Y
