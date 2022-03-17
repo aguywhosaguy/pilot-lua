@@ -37,6 +37,6 @@ switch:Configure( { SwitchValue = true } ) -- Set it to be on
 
 ___
 
-## `void? Part:ConnectToEvent(string eventName, function callback)`
+## `void? Part:Connect(string eventName, function callback)`
 
 > Connects to an event on a part. Some parts have special events.
