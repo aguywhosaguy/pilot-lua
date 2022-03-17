@@ -43,7 +43,7 @@ Stuff still left to do on the Wiki.
   * [[string Part.ClassName|Part#string-partclassname]]
   * [[void Part:Trigger()|Part#void-parttrigger]]
   * [[void Part:Configure([\<string\>property=\<any\>value] properties)|Part#void-partconfigurestringpropertyanyvalue-properties]]
-  * [[void Part:ConnectToEvent(string eventName, function callback)|Part#void-partconnecttoeventstring-eventname-function-callback]]
+  * [[void Part:Connect(string eventName, function callback)|Part#void-partconnecttoeventstring-eventname-function-callback]]
   * [[Gyro]]
     * void Gyro:PointAt(Vector3 position)
   * [[Keyboard]]
