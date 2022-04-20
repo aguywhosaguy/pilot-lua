@@ -78,7 +78,7 @@ Additional objects used in [[Microcontrollers|Microcontroller]]
 * [[ScreenObject]]
   * [[ScreenObject:ChangeProperties()|ScreenObject#void-screenobjectchangepropertiesdictionary-properties]]
 * [[CoordinateInfo (TODO)|TODO]]
-* [[Body (TODO)|TODO]]
+* [[Body]]
 * [[System (TODO)|TODO]]
 
 ## Public Resources
