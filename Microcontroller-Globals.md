@@ -40,7 +40,6 @@ ___
 #### Code example
 
 This example gets all Switches connected to port 1 and toggles each to be active.
-<sub>Provided by [mawesome4ever](/mawesome4ever) in [#1](../issues/1)</sub>
 ```lua
 local switches = GetPartsFromPort(1, "Switch") -- Gets all parts on port 1 with the type "Switch"
 for _, switch in ipairs(switches) do -- Loops over each switch in the list of switches
