@@ -18,12 +18,11 @@ The following code will trigger the uranium dispenser when the reactor is out of
 local reactor = GetPartFromPort(1, "Reactor")
 local uraniumDispenser = GetPartFromPort(2, "Dispenser")
 
-while wait() do
+while task.wait() do
  for _, fuelAmount in pairs(reactor:GetFuel()) do
   if fuelAmount == 0 then
-   uraniumDispenser:Trigger()
-   wait(1)
-   uraniumDispenser:Trigger()
+   uraniumDispenser:Dispense()
+   task.wait(1)
   end
  end
 end
