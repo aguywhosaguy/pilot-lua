@@ -5,7 +5,7 @@ Stuff still left to do on the Wiki.
 * [x] Document most significant Roblox globals
 * [x] Document known Microcontroller globals
 * [ ] Document additional globals
-* [x] Document all Parts' microcontroller functions (In detail)
+* [ ] Document all Parts' microcontroller functions (In detail)
 * [ ] Document all Parts' microcontroller events (In detail)
 * [ ] Add code examples for most of the common microcontroller entries
 * [ ] Document all Parts' configurables (In detail)
