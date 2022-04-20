@@ -6,7 +6,7 @@ The base type for all objects.
 * [`string Part.ClassName`](#string-partclassname)
 * [`void Part:Trigger()`](#void-parttrigger)
 * [`void Part:Configure(dictionary properties)`](#void-partconfiguredictionary-properties)
-* [`void Part:ConnectToEvent(string eventName, function callback)`](#void-partconnecttoeventstring-eventname-function-callback)
+* [`void Part:Connect(string eventName, function callback)`](#void-partconnectstring-eventname-function-callback)
 
 ___
 
