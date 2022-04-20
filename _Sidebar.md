@@ -14,7 +14,7 @@
   * [[Part.ClassName|Part#string-partclassname]]
   * [[Part:Trigger()|Part#void-parttrigger]]
   * [[Part:Configure()|Part#void-partconfiguredictionary-properties]]
-  * [[Part:ConnectToEvent()|Part#void-partconnectstring-eventname-function-callback]]
+  * [[Part:Connect()|Part#void-partconnectstring-eventname-function-callback]]
   * [[Gyro]]
     * [[Gyro:PointAt()|Gyro#void-gyropointatvector3-position]]
   * [[Keyboard]]
