@@ -8,7 +8,7 @@ A device which allows you to get player input using a keyboard-like interface.
 
 ### Events
 * [`Event Keyboard.KeyPressed(KeyCode key, string Player)`](#event-keyboardkeypressedkeycode-key-string-player)
-* [`Event Keyboard.TextInputted(String text, string Player)`](#event-keyboardtextinputtedstring-text-string-player)
+* [`Event Keyboard.TextInputted(string text, string Player)`](#event-keyboardtextinputtedstring-text-string-player)
 ___
 
 ## `void Keyboard:SimulateKeyPress(string? key, string Player)`
@@ -29,6 +29,6 @@ ___
 
 ___
 
-## `Event Keyboard.TextInputted(String text, string Player)`
+## `Event Keyboard.TextInputted(string text, string Player)`
 
 > An event which fires when a Player presses "Enter" on the keyboard.
