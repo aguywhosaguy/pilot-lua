@@ -14,8 +14,8 @@ The base type for all objects.
 * [`void Part:Connect(string eventName, function callback)`](#void-partconnectstring-eventname-function-callback)
 
 ### Events
-* [`Event Part.Triggered(void)`](#events-part-triggered-void)
-* [`Event Part.Configured(void)`](#events-part-configured-void)
+* [`Event Part.Triggered()`](#events-part-triggered)
+* [`Event Part.Configured()`](#events-part-configured)
 
 ___
 
@@ -62,10 +62,10 @@ ___
 
 > Connects to an event on a part. Some parts have special events.
 
-## `Event Part.Triggered(void)`
+## `Event Part.Triggered()`
 
 > An event which fires when the part is triggered.
 
-## `Event Part.Configured(void)`
+## `Event Part.Configured()`
 
 > An event which fires when the part is configured.
