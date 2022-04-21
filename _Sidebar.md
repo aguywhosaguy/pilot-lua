@@ -68,11 +68,6 @@
     * [[Reactor:GetFuel()|Reactor#array-reactorgetfuel]]
     * [[Reactor:GetTemp()|Reactor#number-reactorgettemp]]
   * [[Microcontroller]]
-* [[Cursor]]
-  * [[Cursor.X|Cursor#]]
-  * [[Cursor.Y|Cursor#]]
-  * [[Cursor.Player|Cursor#]]
-  * [[Cursor.Pressed|Cursor#]]
 
 ## Additional objects
 
@@ -80,6 +75,11 @@ Additional objects used in [[Microcontrollers|Microcontroller]]
 
 * [[ScreenObject]]
   * [[ScreenObject:ChangeProperties()|ScreenObject#void-screenobjectchangepropertiesdictionary-properties]]
+* [[Cursor]]
+  * [[Cursor.X|Cursor#int-cursorx]]
+  * [[Cursor.Y|Cursor#int-cursory]]
+  * [[Cursor.Player|Cursor#string-cursorplayer]]
+  * [[Cursor.Pressed|Cursor#boolean-cursorpressed]]
 * [[CoordinateInfo (TODO)|TODO]]
 * [[Body]]
 * [[System (TODO)|TODO]]
