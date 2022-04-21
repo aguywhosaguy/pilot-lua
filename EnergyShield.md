@@ -15,9 +15,3 @@ ___
 ## `number EnergyShield:GetShieldHealth()`
 
 > Gets the shield's health
-
-___
-
-## `Event EnergyShield.Configured`
-
-> Fires when the EnergyShield is reconfigured
