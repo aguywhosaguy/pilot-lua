@@ -3,10 +3,10 @@
 ## Info
 
 * [[Home]]
-  * [[Additional Resources]]
+  * [[Additional Resources|Additional-Resources]]
 * [[Globals]]
-  * [[Microcontroller Globals]]
-  * [[Roblox Globals]]
+  * [[Microcontroller Globals|Microcontroller-Globals]]
+  * [[Roblox Globals|Roblox-Globals]]
 
 ## Part objects
 
