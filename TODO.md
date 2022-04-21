@@ -39,6 +39,8 @@ Stuff still left to do on the Wiki.
 
 * [[Part]]
   * [[string Part.ClassName|Part#string-partclassname]]
+  * [[Color3 Part:GetColor()|Part#color3-partgetcolor]]
+  * [[Vector3 Part:GetSize()|Part#vector3-partgetsize]]
   * [[void Part:Trigger()|Part#void-parttrigger]]
   * [[void Part:Configure([\<string\>property=\<any\>value] properties)|Part#void-partconfigurestringpropertyanyvalue-properties]]
   * [[void Part:Connect(string eventName, function callback)|Part#void-partconnectstring-eventname-function-callback]]
