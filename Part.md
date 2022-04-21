@@ -4,9 +4,9 @@ The base type for all objects.
 ## Table of contents
 
 * [`string Part.ClassName`](#string-partclassname)
-* [`void Part:Trigger()`](#void-parttrigger)
 * [`Color3 Part:GetColor()`](#color3-partgetcolor)
 * [`Color3 Part:GetSize()`](#vector3-partgetsize)
+* [`void Part:Trigger()`](#void-parttrigger)
 * [`void Part:Configure(dictionary properties)`](#void-partconfiguredictionary-properties)
 * [`void Part:Connect(string eventName, function callback)`](#void-partconnectstring-eventname-function-callback)
 
@@ -15,12 +15,6 @@ ___
 ## `string Part.ClassName`
 
 > A string representing the type of the object, for example, `Port` or `Screen`.
-
-___
-
-## `void Part:Trigger()`
-
-> Triggers the part
 
 ___
 
@@ -33,6 +27,13 @@ ___
 ## `Vector3 Part:GetSize()`
 
 > Gets the size of the part as a Vector3.
+
+___
+
+## `void Part:Trigger()`
+
+> Triggers the part
+
 ___
 
 ## `void Part:Configure(dictionary properties)`
