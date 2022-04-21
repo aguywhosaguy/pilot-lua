@@ -19,7 +19,6 @@
   * [[Part:Connect()|Part#void-partconnectstring-eventname-function-callback]]
   * [[Part.Triggered|Part#void-parttriggeredvoid]]
   * [[Part.Configured|Part#void-partconfiguredvoid]]
-
   * [[Gyro]]
     * [[Gyro:PointAt()|Gyro#void-gyropointatvector3-position]]
   * [[Keyboard]]
