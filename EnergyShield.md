@@ -12,10 +12,6 @@ A shield made of energy. Protects against energy based weaponry.
 * `number EnergyShield.RegenerationSpeed`
 * `number EnergyShield.ShieldRadius`
 
-### Events
-
-* [`Event EnergyShield.Configured()`](#event-energyshieldconfigured)
-
 ___
 
 ## `number EnergyShield:GetShieldHealth()`
