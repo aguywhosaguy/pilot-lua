@@ -87,4 +87,4 @@ Additional objects used in [[Microcontrollers|Microcontroller]]
 
 Public code that enhances the experience of using a [[Microcontroller|Microcontroller]].
 
-* [[Weldify's Signal class|Weldify's Signal class]]
+* [[Weldify's Signal class|Weldify's-Signal-class]]
