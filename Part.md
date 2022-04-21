@@ -5,6 +5,8 @@ The base type for all objects.
 
 * [`string Part.ClassName`](#string-partclassname)
 * [`void Part:Trigger()`](#void-parttrigger)
+* [`Color3 Part:GetColor()`](#color3-partgetcolor)
+* [`Color3 Part:GetSize()`](#vector3-partgetsize)
 * [`void Part:Configure(dictionary properties)`](#void-partconfiguredictionary-properties)
 * [`void Part:Connect(string eventName, function callback)`](#void-partconnectstring-eventname-function-callback)
 
@@ -20,6 +22,17 @@ ___
 
 > Triggers the part
 
+___
+
+## `Color3 Part:GetColor()`
+
+> Gets the color of the part as a Color3.
+
+___
+
+## `Vector3 Part:GetSize()`
+
+> Gets the size of the part as a Vector3.
 ___
 
 ## `void Part:Configure(dictionary properties)`
