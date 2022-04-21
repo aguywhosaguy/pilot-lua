@@ -1,6 +1,8 @@
 A device which senses life in a region. Is used to get all of the players and their positions in the local region.
 
 ## Table of contents
+
+### Methods
 * [`[<string>playerName=<Vector3>position] LifeSensor:GetReading()`](#stringplayernamevector3position-lifesensorgetreading)
 
 ___

@@ -1,9 +1,11 @@
 An object created on a [[Screen]].
 
 ## Table of contents
+
+### Methods
 * [`void ScreenObject:ChangeProperties(dictionary properties)`](#void-screenobjectchangepropertiesdictionary-properties)
 * [`void ScreenObject:AddChild(ScreenObject child)`](#void-screenobjectaddchildscreenobject-child)
-* [`ScreenObject:Destroy()`](#void-screenobjectdestroy)
+* [`void ScreenObject:Destroy()`](#void-screenobjectdestroy)
 
 ___
 

@@ -7,9 +7,6 @@ A part which can be used to universally and publicly store data on a "domain" an
 * [`string Modem:GetRequest(string domain)`](#string-modemgetrequeststring-domain)
 * [`void Modem:SendMessage(string data, int id)`](#void-modemsendmessagestring-data-int-id)
 
-### Properties
-* [`int Modem.NetworkID`](#)
-
 ### Events
 * [`Event Modem.MessageSent(string data)`](#event-modemmessagesentstring-data)
 

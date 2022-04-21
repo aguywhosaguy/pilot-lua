@@ -1,6 +1,8 @@
 A part which can display GUI content on its surface
 
 ## Table of contents
+
+### Methods
 * [`Vector2 Screen:GetDimensions()`](#vector2-screengetdimensions)
 * [`void Screen:ClearElements(string className, dictionary properties)`](#void-screenclearelementsstring-classnamenil-dictionary-properties)
 * [`ScreenObject Screen:CreateElement(string elementClass, dictionary properties)`](#screenobject-screencreateelementstring-classname-dictionary-properties)

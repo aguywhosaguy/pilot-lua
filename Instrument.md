@@ -1,6 +1,8 @@
 A device which can measure various things in the environment such as Temperature, or Velocity.
 
 ## Table of Contents
+
+### Methods
 * [`number Instrument:GetReading(int typeId=nil)`](#number-instrumentgetreadingint-typeidnil)
 
 ___

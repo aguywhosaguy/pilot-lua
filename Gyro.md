@@ -2,6 +2,7 @@ The Gyro part actively aims itself towards a target. It can be used to create mi
 
 ## Table of Contents
 
+### Methods
 * [`void Gyro:PointAt(Vector3 position)`](#void-gyropointatvector3-position)
 
 ___

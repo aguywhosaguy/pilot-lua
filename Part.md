@@ -3,7 +3,10 @@ The base type for all objects.
 
 ## Table of contents
 
+### Properties
 * [`string Part.ClassName`](#string-partclassname)
+
+### Methods
 * [`Color3 Part:GetColor()`](#color3-partgetcolor)
 * [`Vector3 Part:GetSize()`](#vector3-partgetsize)
 * [`void Part:Trigger()`](#void-parttrigger)

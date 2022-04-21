@@ -1,6 +1,8 @@
 A part used to store data from microcontrollers.
 
 ## Table of contents
+
+### Methods
 * [`void Disk:ClearDisk()`](#void-diskcleardisk)
 * [`void Disk:Write(string key, string value)`](#void-diskwritestring-key-string-data)
 * [`string Disk:Read(string key)`](#string-diskreadstring-key)

@@ -1,6 +1,8 @@
 A Cursor object returned by [[TouchScreen:GetCursor()|TouchScreen#cursor-touchscreengetcursor]] and [[TouchScreen:GetCursors()|TouchScreen#cursor-touchscreengetcursors]]
 
 ## Table of contents
+
+### Properties
 * [`int Cursor.X`](#int-cursorx)
 * [`int Cursor.Y`](#int-cursory)
 * [`int Cursor.Y`](#int-cursory)

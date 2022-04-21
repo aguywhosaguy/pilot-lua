@@ -1,6 +1,8 @@
 A part which can slide other parts along its surface, like a piston.
 
 ## Table of contents
+
+### Methods
 * [`void Rail:SetPosition(int depth)`](#void-setpositionint-depth)
 
 ___

@@ -1,6 +1,8 @@
 A part which can be used to get information about far away places.
 
 ## Table of contents
+
+### Methods
 * [`CoordinateInfo GetCoordinate()`](#coordinateinfo-getcoordinateint)
 
 ___

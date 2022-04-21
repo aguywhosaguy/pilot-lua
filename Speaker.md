@@ -1,6 +1,8 @@
 A part which can play custom sounds.
 
 ## Table of contents
+
+### Methods
 * [`void Speaker:PlaySound(int soundId)`](#void-speakerplaysoundint-soundid)
 * [`void Speaker:ClearSounds()`](#void-speakerclearsounds)
 * [`void Speaker:Chat(string message)`](#void-speakerchatstring-message)
