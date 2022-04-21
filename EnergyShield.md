@@ -24,6 +24,6 @@ ___
 
 ___
 
-## `Event EnergyShield.Configured()`
+## `Event EnergyShield.Configured`
 
 > Fires when the EnergyShield is reconfigured
