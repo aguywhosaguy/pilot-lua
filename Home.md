@@ -1,6 +1,6 @@
 Waste of Space is a sandbox space game created on ROBLOX. It features in-game Lua programming via microcontrollers. This wiki contains all special objects and functions that microcontrollers can use, nicknamed pilot.lua.
 
-This wiki is a clone of [Hexcede's](https://github.com/Hexcede/pilot.lua/wiki), which is no longer being maintained. Thanks to Hexcede for providing a large amount of documentation!
+This wiki is a clone of [Hexcede's](https://github.com/Hexcede/pilot.lua/wiki), which is no longer being maintained. Thanks to Hexcede and Weldify for providing a large amount of documentation!
 
 ## How to contribute to the wiki
 
