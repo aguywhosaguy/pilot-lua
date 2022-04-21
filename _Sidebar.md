@@ -54,7 +54,7 @@
     * [[Screen:ClearElements()|Screen#void-screenclearelementsstring-classnamenil-dictionary-properties]]
     * [[Screen:CreateElement()|Screen#screenobject-screencreateelementstring-classname-dictionary-properties]]
   * [[TouchSensor]]
-    * [[TouchSensor.Touched|TouchSensor#touchsensor-touched]]
+    * [[TouchSensor.Touched|TouchSensor#event-touchsensor-touched]]
   * [[Rail]]
     * [[Rail:SetPosition()|Rail#void-railsetpositionint-depth]]
   * [[StarMap]]
