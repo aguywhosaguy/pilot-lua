@@ -53,6 +53,8 @@
     * [[Screen:GetDimensions()|Screen#vector2-screengetdimensions]]
     * [[Screen:ClearElements()|Screen#void-screenclearelementsstring-classnamenil-dictionary-properties]]
     * [[Screen:CreateElement()|Screen#screenobject-screencreateelementstring-classname-dictionary-properties]]
+  * [[TouchSensor]]
+    * [[TouchSensor.Touched|TouchSensor#touchsensor-touched]]
   * [[Rail]]
     * [[Rail:SetPosition()|Rail#void-railsetpositionint-depth]]
   * [[StarMap]]
