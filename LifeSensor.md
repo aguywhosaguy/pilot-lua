@@ -1,12 +1,22 @@
-A device which senses life in a region. Is used to get all of the players and their positions in the local region.
+A device which senses life in a region. Is used to get the players and their positions in the local region.
 
 ## Table of contents
 
 ### Methods
-* [`[<string>playerName=<Vector3>position] LifeSensor:GetReading()`](#stringplayernamevector3position-lifesensorgetreading)
+* [`dictionary LifeSensor:GetReading()`](#dictionary-lifesensorgetreading)
 
 ___
 
-## `[<string>playerName=<Vector3>position] LifeSensor:GetReading()`
+## `dictionary LifeSensor:GetReading()`
 
-> Gets all of the life in the local region. Returns a dictionary where each key is the name of a player, and each value is their position in the world.
+> Gets the life in the local region. Returns a dictionary where each key is the name of a player, and each value is their position in the world. Has a range of 2000 studs.
+
+> An example of the format can be seen below: 
+> ```lua
+> {
+>  ["PLAYER_NAME"] = VECTOR3_POSITION;
+>  ["PLAYER_NAME2"] = VECTOR3_POSITION;
+>  ["PLAYER_NAME3"] = VECTOR3_POSITION;
+> }
+> ```
+> where `PLAYER_NAME` is the player's name, and `VECTOR3_POSITION` is the position of the player

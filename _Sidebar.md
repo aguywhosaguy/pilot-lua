@@ -29,7 +29,7 @@
   * [[Microphone]]
     * [[Microphone.Chatted|Microphone#event-microphonechattedstring-player-string-message]]
   * [[LifeSensor]]
-    * [[LifeSensor:GetReading()|LifeSensor#stringplayernamevector3position-lifesensorgetreading]]
+    * [[LifeSensor:GetReading()|LifeSensor#dictionary-lifesensorgetreading]]
   * [[Instrument]]
     * [[Instrument:GetReading()|Instrument#number-instrumentgetreadingint-typeidnil]]
   * [[EnergyShield]]
