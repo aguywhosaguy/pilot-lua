@@ -17,23 +17,23 @@ Stuff still left to do on the Wiki.
 * **DOCUMENT ME** [[CoordinateInfo TODO]]
 * **DOCUMENT ME** [[Body TODO]]
 * **DOCUMENT ME** [[System TODO]]
-* **DOCUMENT ME** [[Signal TODO]]
+* **DOCUMENT ME** [[Event TODO]]
 * [[Part]]
-  * **DOCUMENT ME** Signal Part.Triggered
-  * **DOCUMENT ME** Signal Part.Configured
+  * **DOCUMENT ME** Event Part.Triggered
+  * **DOCUMENT ME** Event Part.Configured
   * [[Microphone]]
-    * **DOCUMENT ME** Signal Microphone.Chatted
+    * **DOCUMENT ME** Event Microphone.Chatted
   * [[Keyboard]]
-    * **DOCUMENT ME** Signal Keyboard.KeyPressed
-    * **DOCUMENT ME** Signal Keyboard.TextInputted
+    * **DOCUMENT ME** Event Keyboard.KeyPressed
+    * **DOCUMENT ME** Event Keyboard.TextInputted
   * [[Modem]]
-    * **DOCUMENT ME** Signal Modem.MessageSent
+    * **DOCUMENT ME** Event Modem.MessageSent
   * [[TouchScreen]]
-    * **DOCUMENT ME** Signal TouchScreen.CursorMoved
-    * **DOCUMENT ME** Signal TouchScreen.CursorPressed
-    * **DOCUMENT ME** Signal TouchScreen.CursorReleased
+    * **DOCUMENT ME** Event TouchScreen.CursorMoved
+    * **DOCUMENT ME** Event TouchScreen.CursorPressed
+    * **DOCUMENT ME** Event TouchScreen.CursorReleased
   * [[TouchSensor]]
-    * **DOCUMENT ME** Signal TouchSensor.Touched
+    * **DOCUMENT ME** Event TouchSensor.Touched
 
 ## Documented content
 

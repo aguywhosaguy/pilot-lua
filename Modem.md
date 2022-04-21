@@ -11,7 +11,7 @@ A part which can be used to universally and publicly store data on a "domain" an
 * [`int Modem.NetworkID`](#)
 
 ### Events
-* [`Signal Modem.MessageSent(string data)`](#signal-modemmessagesentstring-data)
+* [`Event Modem.MessageSent(string data)`](#event-modemmessagesentstring-data)
 
 ___
 
@@ -35,6 +35,6 @@ ___
 
 ___
 
-## `Signal Modem.MessageSent(string data)`
+## `Event Modem.MessageSent(string data)`
 
 > Fired when the Modem receives a message from another modem.

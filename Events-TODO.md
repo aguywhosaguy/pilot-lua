@@ -1,4 +1,4 @@
-## Public signal names
+## Public events names
 * Triggered
 * Configured
 * OnClick

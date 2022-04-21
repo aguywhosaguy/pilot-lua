@@ -25,7 +25,7 @@
     * [[Keyboard.KeyPressed|Keyboard#void-keyboardsimulatetextinputstring-input-string-player]]
     * [[Keyboard.TextInputted|Keyboard#void-keyboardsimulatetextinputstring-input-string-player]]
   * [[Microphone]]
-    * [[Microphone.Chatted|Microphone#signal-microphonechattedstring-player-string-message]]
+    * [[Microphone.Chatted|Microphone#event-microphonechattedstring-player-string-message]]
   * [[LifeSensor]]
     * [[LifeSensor:GetReading()|LifeSensor#stringplayernamevector3position-lifesensorgetreading]]
   * [[Instrument]]

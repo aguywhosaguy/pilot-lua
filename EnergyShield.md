@@ -14,7 +14,7 @@ A shield made of energy. Protects against energy based weaponry.
 
 ### Events
 
-* [`Signal EnergyShield.Configured()`](#signal-energyshieldconfigured)
+* [`Event EnergyShield.Configured()`](#event-energyshieldconfigured)
 
 ___
 
@@ -24,6 +24,6 @@ ___
 
 ___
 
-## `Signal EnergyShield.Configured()`
+## `Event EnergyShield.Configured()`
 
 > Fires when the EnergyShield is reconfigured
