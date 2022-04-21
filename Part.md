@@ -18,13 +18,13 @@ ___
 
 ___
 
-## `Color3 Part:GetColor()`<sup>[UNSTABLE]</sup>
+## `Color3 Part:GetColor()`<sup>[IN UNSTABLE]</sup>
 
 > Gets the color of the part as a Color3.
 
 ___
 
-## `Vector3 Part:GetSize()`<sup>[UNSTABLE]</sup>
+## `Vector3 Part:GetSize()`<sup>[IN UNSTABLE]</sup>
 
 > Gets the size of the part as a Vector3.
 
