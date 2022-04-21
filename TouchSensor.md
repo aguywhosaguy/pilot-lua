@@ -3,7 +3,7 @@ A part which detects touches from other parts.
 ## Table of Contents
 
 ### Events
-* [`Event TouchSensor.Touched()`](#event-touchsensortouched)
+* [`Event TouchSensor.Touched()`](#event-touchsensor-touched)
 
 ___
 
