@@ -32,10 +32,8 @@ Stuff still left to do on the Wiki.
     * **DOCUMENT ME** Signal TouchScreen.CursorMoved
     * **DOCUMENT ME** Signal TouchScreen.CursorPressed
     * **DOCUMENT ME** Signal TouchScreen.CursorReleased
-  * [[Switch?]]
-    * **DOCUMENT ME** Signal Switch?.OnClick
-  * [[TouchSensor?]]
-    * **DOCUMENT ME** Signal TouchSensor?.Touched
+  * [[TouchSensor]]
+    * **DOCUMENT ME** Signal TouchSensor.Touched
 
 ## Documented content
 
