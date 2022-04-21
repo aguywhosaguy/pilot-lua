@@ -12,8 +12,8 @@
 
 * [[Part]]
   * [[Part.ClassName|Part#string-partclassname]]
-  * [[Part:GetColor()|part#color3-partgetcolor]]
-  * [[Part:GetSize()|part#vector3-partgetsize]]
+  * [[Part:GetColor()|Part#color3-partgetcolor]]
+  * [[Part:GetSize()|Part#vector3-partgetsize]]
   * [[Part:Trigger()|Part#void-parttrigger]]
   * [[Part:Configure()|Part#void-partconfiguredictionary-properties]]
   * [[Part:Connect()|Part#void-partconnectstring-eventname-function-callback]]
