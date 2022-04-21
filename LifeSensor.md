@@ -1,4 +1,4 @@
-A device which senses life in a region. Is used to get the players and their positions in the local region.
+A device which senses life in a region. It is used to get players and their positions in the local region.
 
 ## Table of contents
 
