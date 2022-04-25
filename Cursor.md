@@ -5,7 +5,6 @@ A Cursor object returned by [[TouchScreen:GetCursor()|TouchScreen#cursor-touchsc
 ### Properties
 * [`int Cursor.X`](#int-cursorx)
 * [`int Cursor.Y`](#int-cursory)
-* [`int Cursor.Y`](#int-cursory)
 * [`string Cursor.Player`](#string-cursorplayer)
 * [`boolean Cursor.Pressed`](#boolean-cursorpressed)
 
