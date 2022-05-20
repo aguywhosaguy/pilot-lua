@@ -107,16 +107,14 @@ local success, errMessage = xpcall(myFunction, debug.traceback)
 
 ___
 
-## Functions to avoid
+## Deprecated
 
-### **DO NOT USE** [`void delay(optional float time, function callback)`](https://developer.roblox.com/en-us/api-reference/lua-docs/Roblox-Globals#functions)
+### **[Deprecated]** [`void delay(optional float time, function callback)`](https://developer.roblox.com/en-us/api-reference/lua-docs/Roblox-Globals#functions)
 
-> **NOTE**: (Due to the following this function may also be removed or have its functionality replaced in the future) It is not recommended that you use this function due to its heavy performance cost, slow action, and its potential to effect WoS' game loop if you use it in bulk. (Remember that intentionally crashing servers can get you banned!) Instead, see the (coroutines)[#coroutine] library
-> Similar to `spawn`. Waits for the input time, then calls your function. Due to its internal mechanisms its very slow, and, it can cause Roblox to throttle calls to itself and also many timer functions like `wait()`. This can slow down a lot of stuff.
+> Waits the specified time, then spawns the passed function in a new thread. Succeeded by `task.delay`
 
 ___
 
-### **DO NOT USE** [`void spawn(function callback)`](https://developer.roblox.com/en-us/api-reference/lua-docs/Roblox-Globals#functions)
+### **[Deprecated]** [`void spawn(function callback)`](https://developer.roblox.com/en-us/api-reference/lua-docs/Roblox-Globals#functions)
 
-> **NOTE**: (Due to the following this function may also be removed or have its functionality replaced in the future) See `delay` above.
-> This is like calling `delay` with `0` as the time. This means that it still takes two Roblox frames like `wait()` does.
+> Spawns the passed function in a new thread. Succeeded by `task.spawn`
