@@ -26,7 +26,8 @@ ___
 ## `Event Keyboard.KeyPressed(KeyCode key, string keyString, UserInputState state, string Player)`
 
 > An event which fires when a Player presses a key on the Keyboard.
-keyString is the key pressed as a string (for example, `a` if the player pressed A.) If shift is held, the keyString will be capitalized. If the key is non-printable (i.e. shift or return) keyString will be nil.
+`keyString` is the key pressed as a string (for example, `a` if the player pressed A.) If shift is held, the keyString will be capitalized. If the key is non-printable (i.e. shift or return) `keyString` will be nil.
+`state` is always Enum.UserInputType.End.
 
 ___
 
