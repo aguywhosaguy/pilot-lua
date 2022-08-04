@@ -70,6 +70,8 @@
     * [[Reactor:GetFuel()|Reactor#array-reactorgetfuel]]
     * [[Reactor:GetTemp()|Reactor#number-reactorgettemp]]
   * [[Microcontroller]]
+  * [[Dispenser]]
+    * [[Dispenser:Dispense()|Dispenser#void-dispenserdispense]]
 
 ## Additional objects
 
