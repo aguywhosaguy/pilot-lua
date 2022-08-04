@@ -3,7 +3,7 @@ A part that dispenses items when triggered, or when `:Dispense()` is called on i
 ## Table of contents
 
 ### Methods
-* [`void Dispenser:Dispense()`](#void-dispenser-dispense)
+* [`void Dispenser:Dispense()`](#void-dispenserdispense)
 
 ___
 
