@@ -1,4 +1,3 @@
-**This documentation is incomplete. Please contribute via [Issues](../issues)!** \
 The base type for all objects.
 
 ## Table of contents
@@ -43,7 +42,7 @@ ___
 
 ___
 
-## `void Part:Configure(dictionary properties)`
+## `void Part:Configure(Dictionary properties)`
 
 > Updates the part's configuration options.
 
